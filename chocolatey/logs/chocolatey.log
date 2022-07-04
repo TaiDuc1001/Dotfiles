@@ -1,0 +1,25 @@
+2022-07-04 12:08:38,662 15696 [DEBUG] - XmlConfiguration is now operational
+2022-07-04 12:08:38,696 15696 [INFO ] - ============================================================
+2022-07-04 12:08:38,726 15696 [DEBUG] - Attempting to create directory "C:\ProgramData\chocolatey\config".
+2022-07-04 12:08:38,882 15696 [DEBUG] - Attempting to replace "C:\ProgramData\chocolatey\config\chocolatey.config"
+ with "C:\ProgramData\chocolatey\config\chocolatey.config.15696.update".
+ Backup placed at "C:\ProgramData\chocolatey\config\chocolatey.config.backup".
+2022-07-04 12:08:38,885 15696 [DEBUG] - Attempting to copy "C:\ProgramData\chocolatey\config\chocolatey.config.15696.update"
+ to "C:\ProgramData\chocolatey\config\chocolatey.config".
+2022-07-04 12:08:38,888 15696 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\config\chocolatey.config.15696.update".
+2022-07-04 12:08:38,890 15696 [INFO ] - 1.1.0
+2022-07-04 12:08:38,893 15696 [DEBUG] - Exiting with 0
+2022-07-04 12:08:44,908 816 [DEBUG] - XmlConfiguration is now operational
+2022-07-04 12:08:44,940 816 [INFO ] - ============================================================
+2022-07-04 12:08:45,065 816 [INFO ] - Chocolatey v1.1.0
+2022-07-04 12:08:45,069 816 [INFO ] - Please run 'choco -?' or 'choco <command> -?' for help menu.
+2022-07-04 12:08:45,076 816 [DEBUG] - Chocolatey is running on Windows v 10.0.19043.0
+2022-07-04 12:08:45,078 816 [DEBUG] - Attempting to delete file "C:/ProgramData/chocolatey/choco.exe.old".
+2022-07-04 12:08:45,079 816 [DEBUG] - Attempting to delete file "C:\ProgramData\chocolatey\choco.exe.old".
+2022-07-04 12:08:45,085 816 [DEBUG] - Command line: "C:\ProgramData\chocolatey\choco.exe"
+2022-07-04 12:08:45,086 816 [DEBUG] - Received arguments: 
+2022-07-04 12:08:45,125 816 [DEBUG] - RemovePendingPackagesTask is now ready and waiting for PreRunMessage.
+2022-07-04 12:08:45,132 816 [DEBUG] - Sending message 'PreRunMessage' out if there are subscribers...
+2022-07-04 12:08:45,137 816 [DEBUG] - [Pending] Removing all pending packages that should not be considered installed...
+2022-07-04 12:08:45,168 816 [DEBUG] - Sending message 'PostRunMessage' out if there are subscribers...
+2022-07-04 12:08:45,172 816 [DEBUG] - Exiting with 1
