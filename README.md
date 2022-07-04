@@ -6,6 +6,7 @@
 | d         | PowerShell              | C:\Users\Admin\Documents\       |
 | d         | WindowsPowerShell       | C:\Users\Admin\Documents\       |
 | d         | profile.d               | C:\Program Files\Git\etc\       |
+| d         | chocolatey              | C:\ProgramData\                 |
 | d         | scoop                   | C:\Users\Admin\                 |
 | d         | oh-my-posh              | C:\Users\Users\AppData\Local\   |
 | d         | .config                 | C:\Users\Admin\                 |
