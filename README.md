@@ -24,7 +24,7 @@
 | d         | profile.d               | ```  C:\Program Files\Git\etc\      ``` |
 | d         | chocolatey              | ```  C:\ProgramData\                ``` |
 | d         | scoop                   | ``` C:\Users\Admin\                 ``` |
-| d         | oh-my-posh              | ``` C:\Users\Users\AppData\Local\   ``` |
+| d         | oh-my-posh              | ``` C:\Users\Admin\AppData\Local\   ``` |
 | d         | .config                 | ``` C:\Users\Admin\                 ``` |
 | -         | .bashrc                 | ``` C:\Users\Admin\                 ``` |
 | -         | .bashrc.swp             | ``` C:\Users\Admin\                 ``` |
