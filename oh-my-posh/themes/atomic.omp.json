@@ -77,12 +77,12 @@
         },
         {
           "background": "#b2bec3",
-          "foreground": "#222222",
+          "foreground": "#b03b57",
           "leading_diamond": "\ue0b6",
           "properties": {
             "linux": "\ue27f",
             "macos": "\ue27f",
-            "windows": "\ue27f"
+            "windows": "\uf004"
           },
           "style": "diamond",
           "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}<#262626> \ue0b2</>",
