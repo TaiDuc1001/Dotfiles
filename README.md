@@ -17,6 +17,8 @@
 | -         | .bash_profile           | C:\Users\Admin\                 |
 -->
 
+
+
 | Type      | Files name              |   Valid path                            |
 | :---:     |   :----                 |   :---                                  |
 | d         | PowerShell              | ``` C:\Users\Admin\Documents\       ``` |

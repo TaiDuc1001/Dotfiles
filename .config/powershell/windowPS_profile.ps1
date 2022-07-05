@@ -9,5 +9,3 @@ Set-alias g git
 
 #Clear
 clear
-
-Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Console" -Name "FaceName" -Value "Hack NF" -Type String;
