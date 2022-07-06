@@ -56,3 +56,5 @@ alias df='df -h'
 alias vi='vim'
 alias props='du -shc ./*/'
 alias tree='tree.com //a'
+
+neofetch
