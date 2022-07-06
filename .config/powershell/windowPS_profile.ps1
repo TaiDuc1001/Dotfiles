@@ -9,3 +9,6 @@ Set-alias g git
 
 #Clear
 clear
+
+#Neofetch
+neofetch
