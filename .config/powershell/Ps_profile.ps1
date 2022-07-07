@@ -1,16 +1,40 @@
 # Prompt
 Import-Module posh-git
 Import-Module oh-my-posh
+
+#Set-Themes
 Set-PoshPrompt atomic
+
+#Terminal-Icons
+Import-Module -Name Terminal-Icons
+
+#PSReadlineOptions
+(Get-PSReadlineOption).HistorySavePath
+set-PSReadLineOption -PredictionSource History
+set-PSReadLineOption -PredictionViewStyle Listview
+set-PSReadLineOption -EditMode Emacs
+set-PSReadLineOption -BellStyle None
+
+
 
 # Alias
 Set-alias vim nvim
+Set-alias ll ls
 
-#Clear
+#Clear console
 clear
 
 #Echo DUCKY
 
+
+echo        "_____________  _______________ ___  __"
+echo        "___  __ \_  / / /_  ____/__  //_/ \/ /"
+echo        "__  / / /  / / /_  /    __  ,<  __  / "
+echo        "_  /_/ // /_/ / / /___  _  /| | _  /  "
+echo        "/_____/ \____/  \____/  /_/ |_| /_/   "
+echo " "
+
+#No bi loi gi day echo ra mat vai ki tu
 <#
 echo    ".----------------.  .----------------.  .----------------.  .----------------.  .----------------.  "
 echo    "| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |"
@@ -24,11 +48,3 @@ echo    "| |              | || |              | || |              | || |        
 echo    "| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |"
 echo    " '----------------'  '----------------'  '----------------'  '----------------'  '----------------' "
 #>
-
-echo        "_____________  _______________ ___  __"
-echo        "___  __ \_  / / /_  ____/__  //_/ \/ /"
-echo        "__  / / /  / / /_  /    __  ,<  __  / "
-echo        "_  /_/ // /_/ / / /___  _  /| | _  /  "
-echo        "/_____/ \____/  \____/  /_/ |_| /_/   "
-echo " "
-
