@@ -15,7 +15,8 @@ set-PSReadLineOption -PredictionViewStyle Listview
 set-PSReadLineOption -EditMode Emacs
 set-PSReadLineOption -BellStyle None
 
-
+#Search with Everything
+Set-Alias -Name ev -Value everything
 
 # Alias
 Set-alias vim nvim
