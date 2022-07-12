@@ -1,0 +1,205 @@
+0 verbose cli C:\Users\DUC\scoop\apps\nodejs\current\node.exe C:\Users\DUC\scoop\apps\nodejs\current\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.12.1
+2 info using node@v18.5.0
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\DUC\Documents\Code\Config\scoop\apps\nodejs\18.5.0\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:C:\Users\DUC\.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:C:\Users\DUC\scoop\persist\nodejs\bin\etc\npmrc Completed in 1ms
+13 timing config:load:global Completed in 1ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 0ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 9ms
+18 timing npm:load:configload Completed in 9ms
+19 timing npm:load:mkdirpcache Completed in 1ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm info neovim
+22 verbose argv "info" "neovim" "--json"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing config:load:flatten Completed in 2ms
+25 timing npm:load:display Completed in 3ms
+26 verbose logfile logs-max:10 dir:C:\Users\DUC\scoop\persist\nodejs\cache\_logs
+27 verbose logfile C:\Users\DUC\scoop\persist\nodejs\cache\_logs\2022-07-11T09_30_26_675Z-debug-0.log
+28 timing npm:load:logFile Completed in 5ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 20ms
+32 silly logfile start cleaning logs, removing 3 files
+33 silly logfile done cleaning log files
+34 http fetch GET 200 https://registry.npmjs.org/neovim 1550ms (cache miss)
+35 silly view {
+35 silly view   '4.10.1': {
+35 silly view     _id: 'neovim@4.10.1',
+35 silly view     _rev: '43-1baed3aebc1ff7a80748841f18207bc0',
+35 silly view     name: 'neovim',
+35 silly view     description: 'Neovim client API and neovim remote plugin provider',
+35 silly view     'dist-tags': { latest: '4.10.1', next: '4.0.0-alpha.1' },
+35 silly view     versions: [
+35 silly view       '0.0.1',   '0.1.0',         '3.0.0',
+35 silly view       '3.1.0',   '3.2.0',         '3.2.1',
+35 silly view       '3.2.2',   '3.2.3',         '3.2.4',
+35 silly view       '3.2.5',   '3.2.6',         '3.2.7',
+35 silly view       '3.4.1-0', '3.4.2',         '3.4.4',
+35 silly view       '3.4.5',   '3.5.0',         '3.5.1',
+35 silly view       '3.5.2',   '4.0.0-alpha.1', '4.0.0',
+35 silly view       '4.0.1',   '4.1.0',         '4.2.0',
+35 silly view       '4.2.1',   '4.3.0',         '4.4.0',
+35 silly view       '4.5.0',   '4.6.0-alpha.0', '4.6.0',
+35 silly view       '4.7.0',   '4.8.0',         '4.9.0',
+35 silly view       '4.10.0',  '4.10.1'
+35 silly view     ],
+35 silly view     maintainers: [ [Object] ],
+35 silly view     time: {
+35 silly view       modified: '2022-06-21T00:19:25.313Z',
+35 silly view       created: '2014-11-26T06:31:04.482Z',
+35 silly view       '0.0.1': '2014-11-26T06:31:04.482Z',
+35 silly view       '0.1.0': '2017-06-13T02:05:45.474Z',
+35 silly view       '3.0.0': '2017-06-13T02:09:26.056Z',
+35 silly view       '3.1.0': '2017-06-16T18:12:42.133Z',
+35 silly view       '3.2.0': '2017-06-30T02:53:03.216Z',
+35 silly view       '3.2.1': '2017-06-30T04:07:17.584Z',
+35 silly view       '3.2.2': '2017-06-30T20:23:21.705Z',
+35 silly view       '3.2.3': '2017-06-30T20:34:28.204Z',
+35 silly view       '3.2.4': '2017-06-30T20:42:01.976Z',
+35 silly view       '3.2.5': '2017-06-30T20:49:25.295Z',
+35 silly view       '3.2.6': '2017-06-30T20:53:56.511Z',
+35 silly view       '3.2.7': '2017-07-03T16:31:16.908Z',
+35 silly view       '3.4.1-0': '2017-07-05T19:44:43.619Z',
+35 silly view       '3.4.2': '2017-07-24T04:30:34.825Z',
+35 silly view       '3.4.4': '2017-07-24T04:51:55.701Z',
+35 silly view       '3.4.5': '2017-07-31T16:09:48.967Z',
+35 silly view       '3.5.0': '2017-10-27T14:55:48.115Z',
+35 silly view       '3.5.1': '2017-12-10T05:14:24.567Z',
+35 silly view       '3.5.2': '2018-01-02T16:57:05.458Z',
+35 silly view       '4.0.0': '2018-05-13T18:39:53.688Z',
+35 silly view       '4.0.0-alpha.1': '2018-05-13T18:48:35.137Z',
+35 silly view       '4.0.1': '2018-05-13T20:27:37.573Z',
+35 silly view       '4.1.0': '2018-06-03T19:02:07.244Z',
+35 silly view       '4.2.0': '2018-06-28T05:22:01.971Z',
+35 silly view       '4.2.1': '2018-07-14T15:47:00.485Z',
+35 silly view       '4.3.0': '2019-03-04T06:57:09.883Z',
+35 silly view       '4.4.0': '2019-03-06T05:56:15.627Z',
+35 silly view       '4.5.0': '2019-03-24T21:07:02.432Z',
+35 silly view       '4.6.0-alpha.0': '2019-12-22T22:21:39.727Z',
+35 silly view       '4.6.0': '2019-12-30T12:18:41.597Z',
+35 silly view       '4.7.0': '2019-12-30T12:36:31.803Z',
+35 silly view       '4.8.0': '2020-01-12T18:52:17.521Z',
+35 silly view       '4.9.0': '2020-05-25T19:38:13.803Z',
+35 silly view       '4.10.0': '2021-04-13T16:01:52.579Z',
+35 silly view       '4.10.1': '2021-12-13T15:15:43.579Z'
+35 silly view     },
+35 silly view     license: 'MIT',
+35 silly view     readmeFilename: '',
+35 silly view     homepage: 'https://github.com/neovim/node-client',
+35 silly view     keywords: [
+35 silly view       'neovim',
+35 silly view       'neovim-client',
+35 silly view       'node-host',
+35 silly view       'node-client',
+35 silly view       'nvim',
+35 silly view       'nvim-client',
+35 silly view       'vim'
+35 silly view     ],
+35 silly view     repository: {
+35 silly view       type: 'git',
+35 silly view       url: 'git+https://github.com/neovim/node-client.git'
+35 silly view     },
+35 silly view     bugs: { url: 'https://github.com/neovim/node-client/issues' },
+35 silly view     users: {},
+35 silly view     _cached: true,
+35 silly view     _contentLength: 0,
+35 silly view     version: '4.10.1',
+35 silly view     authors: [ [Object], [Object], [Object], [Object] ],
+35 silly view     bin: { 'neovim-node-host': 'bin/cli.js' },
+35 silly view     main: './lib/index',
+35 silly view     typings: './lib/index',
+35 silly view     engines: { node: '>=10' },
+35 silly view     dependencies: {
+35 silly view       '@msgpack/msgpack': '^2.7.1',
+35 silly view       semver: '^7.3.5',
+35 silly view       winston: '3.3.3'
+35 silly view     },
+35 silly view     devDependencies: {
+35 silly view       '@babel/core': '^7.15.5',
+35 silly view       '@babel/plugin-proposal-class-properties': '^7.14.5',
+35 silly view       '@babel/preset-env': '^7.15.6',
+35 silly view       '@babel/preset-typescript': '^7.15.0',
+35 silly view       '@types/jest': '^27.0.1',
+35 silly view       '@types/node': '16.9.x',
+35 silly view       '@types/which': '^2.0.1',
+35 silly view       'babel-jest': '^27.2.0',
+35 silly view       jest: '^27.2.0',
+35 silly view       'jest-haste-map': '^27.2.0',
+35 silly view       'jest-resolve': '^27.2.0',
+35 silly view       typedoc: '^0.22.4',
+35 silly view       typescript: '^4.4.3',
+35 silly view       which: '^2.0.2'
+35 silly view     },
+35 silly view     scripts: {
+35 silly view       doc: "typedoc --out doc --exclude '**/*.test.ts' src",
+35 silly view       prepublishOnly: 'yarn build',
+35 silly view       test: 'yarn jest',
+35 silly view       'test-build': 'yarn test --runInBand --coverage',
+35 silly view       'test-staged': 'yarn test --bail --no-cache --findRelatedTests',
+35 silly view       'test-missing-apis': 'yarn build && node scripts/findMissingApi',
+35 silly view       precommit: 'lint-staged',
+35 silly view       build: 'tsc --pretty',
+35 silly view       dev: 'yarn build --watch true'
+35 silly view     },
+35 silly view     jest: {
+35 silly view       moduleFileExtensions: [Array],
+35 silly view       testEnvironment: 'node',
+35 silly view       testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.ts$',
+35 silly view       coverageDirectory: './coverage/',
+35 silly view       testURL: 'http://localhost'
+35 silly view     },
+35 silly view     volta: { node: '10.18.0', yarn: '1.21.1' },
+35 silly view     gitHead: '4b088eeb8c34fef77e7704ca80c0d514b40f57e1',
+35 silly view     _nodeVersion: '10.18.0',
+35 silly view     _npmVersion: 'lerna/4.0.0/node@v10.18.0+x64 (darwin)',
+35 silly view     dist: {
+35 silly view       integrity: 'sha512-H46Jl2bh/LAFJsitv2MiIK3oCxvQnEK9t3efNMUUkKzsTYlLIikVxGWVk/vJnHzvxoHYBIRB/KHwPAOm+9UStg==',
+35 silly view       shasum: 'ff8655fdcac9bbb9dabea58847ae0644bafbad2c',
+35 silly view       tarball: 'https://registry.npmjs.org/neovim/-/neovim-4.10.1.tgz',
+35 silly view       fileCount: 67,
+35 silly view       unpackedSize: 148009,
+35 silly view       'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\n' +
+35 silly view         'Version: OpenPGP.js v3.0.13\r\n' +
+35 silly view         'Comment: https://openpgpjs.org\r\n' +
+35 silly view         '\r\n' +
+35 silly view         'wsFcBAEBCAAQBQJht2OfCRA9TVsSAnZWagAA5McP/jX9xDE8XV3NMzfqIp8L\n' +
+35 silly view         'UQrzIZEjjj8EJDrhBanvkizEEq3usmqNg8MDvKndz7rh00D756kOT1cIEtml\n' +
+35 silly view         'wvHIsVZ0IdsRoHTHK/YIkxuD7K8r0/tbDWeh4bIKGz5gT1OQwhqBGY2VPjfx\n' +
+35 silly view         '5tEsF17eVaqLrqudKGIz+Fg0HrAQXovKTVGlGL5F3zEHxt5MuUugU0ZP1XpC\n' +
+35 silly view         '6NItgcfGcWkYYZxWYVticikCxpy4hXAMoAqfJZ3pcXwf56ILSmdpvZgogRok\n' +
+35 silly view         'Rfjvszf9EQDwld4W72wf6R6zqnH588QqAYBbhaQ6clES2EG+1CHqTVqlyOjN\n' +
+35 silly view         '+wLnR36npn92s5K3xWHMYCbwhGwHJetXAQ4/gBNR2FKQvbnXJvYWt5ByrdS7\n' +
+35 silly view         'xRlm7FxYwPk+IhdN35WbFjsXGpUOfCuQl92KPg33Bp7EkbMUqxkCU+frX/PV\n' +
+35 silly view         'XB24qLLNC0XvdNPv1giq0YQCroQldXWDhkTQOZihFWtk3wtOmin6oZICYbFZ\n' +
+35 silly view         '/ke6tgLN3P5Cj5oKRLzK0l/Bh9A5E9LoFmYJzxWosA2NRVZjsIotUoPoUpTO\n' +
+35 silly view         'xxaQMvQXT+584gfPwTtC4mZ+Z+Tc7omi+TU+U/lOI0Z3UgRcDqgwXr3seDsY\n' +
+35 silly view         'QPZ1sP7UrpU4fGmbtlsoC1du5BkgoKDxJYsgNUA7lT5fTNFSI7gDBd35E+7e\n' +
+35 silly view         'g0eJ\r\n' +
+35 silly view         '=jjyE\r\n' +
+35 silly view         '-----END PGP SIGNATURE-----\r\n',
+35 silly view       signatures: [Array]
+35 silly view     },
+35 silly view     _npmUser: { name: 'billyvg', email: 'npm@mmo.me' },
+35 silly view     directories: {},
+35 silly view     _npmOperationalInternal: {
+35 silly view       host: 's3://npm-registry-packages',
+35 silly view       tmp: 'tmp/neovim_4.10.1_1639408543414_0.7033120132635116'
+35 silly view     },
+35 silly view     _hasShrinkwrap: false
+35 silly view   }
+35 silly view }
+36 timing command:info Completed in 1563ms
+37 verbose exit 0
+38 timing npm Completed in 1646ms
+39 info ok
