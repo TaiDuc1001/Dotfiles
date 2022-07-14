@@ -21,6 +21,8 @@ Set-Alias -Name ev -Value everything
 # Alias
 Set-alias vim nvim
 Set-alias ll ls
+function init { cd 'C:\Users\DUC\AppData\Local\nvim' }
+Set-alias init.vim init
 
 #Clear console
 clear

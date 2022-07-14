@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\autohotkey.install\autohotkey.install.nupkg" checksum="092983574633C33B5DFD8B5AD91AE0EC" />
+    <file path="C:\ProgramData\chocolatey\lib\autohotkey.install\autohotkey.install.nuspec" checksum="2D27FEBCC80D1D5BD2F822D3852CD32B" />
+    <file path="C:\ProgramData\chocolatey\lib\autohotkey.install\tools\AutoHotkey_1.1.34.03_setup.exe" checksum="29A9A89A60E25EE46E6F6917541904E2" />
+    <file path="C:\ProgramData\chocolatey\lib\autohotkey.install\tools\AutoHotkey_1.1.34.03_setup.exe.ignore" checksum="BEA07E6D2B8DCE396FE21BAA61B34956" />
+    <file path="C:\ProgramData\chocolatey\lib\autohotkey.install\tools\chocolateyInstall.ps1" checksum="1A46FB9E494D6A7849369C9C9CAF4A7F" />
+    <file path="C:\ProgramData\chocolatey\lib\autohotkey.install\tools\license.txt" checksum="E3F2AD7733F3166FE770E4DC00AF6C45" />
+    <file path="C:\ProgramData\chocolatey\lib\autohotkey.install\tools\VERIFICATION.txt" checksum="922FC08BC681B2B76C51A9F32FE1B128" />
+  </files>
+</fileSnapshot>

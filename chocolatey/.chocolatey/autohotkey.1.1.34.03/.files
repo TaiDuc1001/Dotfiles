@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\autohotkey\autohotkey.nupkg" checksum="EB9A1007BD3396C00FC3F81A1A263D7C" />
+    <file path="C:\ProgramData\chocolatey\lib\autohotkey\autohotkey.nuspec" checksum="35556D23E18F690885A5AFB8C2FD4450" />
+    <file path="C:\ProgramData\chocolatey\lib\autohotkey\tools\chocolateyInstall.ps1" checksum="808E7B237718D1A247D800E5ADA4EBD0" />
+  </files>
+</fileSnapshot>
