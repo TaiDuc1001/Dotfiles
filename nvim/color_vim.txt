@@ -1,0 +1,8 @@
+8
+16 full black
+23 --s
+24
+29 (text)
+35 :(
+52 error
+109: gray

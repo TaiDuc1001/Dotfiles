@@ -1,0 +1,40 @@
+" Press ? for help
+
+.. (up a dir)
+</lechi/AppData/Local/nvim/
+▾ [   ]plugged/
+  ▸ [   ]ale/
+  ▸ [   ]auto-pairs/
+  ▸ [   ]coc.nvim/
+  ▸ [   ]ctags/
+  ▸ [   ]emmet-vim/
+  ▸ [   ]fzf/
+  ▸ [   ]fzf.vim/
+  ▸ [   ]nerdcommenter/
+  ▸ [   ]nerdTree/
+  ▸ [   ]nerdtree-git-plugin/
+  ▸ [   ]onehalf/
+  ▸ [   ]vim-airline/
+  ▸ [   ]vim-airline-themes/
+  ▸ [   ]vim-closetag/
+  ▸ [   ]vim-devicons/
+  ▸ [   ]vim-floaterm/
+  ▸ [   ]vim-fugitive/
+  ▸ [   ]vim-js/
+  ▸ [   ]vim-lsp-cxx-highlight/
+  ▸ [   ]vim-nerdtree-sync/
+  ▸ [   ]vim-nerdtree-syntax-highlight/
+  ▸ [   ]vimspector/
+  ▸ [   ]vista.vim/
+▾ [   ]settings/
+    [   ]airline.vim
+    [   ]coc.vim
+    [   ]floaterm.vim
+    [   ]fzf.vim
+    [   ]nerdcommenter.vim
+    [   ]nerdtree.vim
+    [   ]vimspector.vim
+  [   ]caps_to_esc.au3
+  [   ]coc-settings.json
+  [   ]ginit.vim
+  [   ]init.vim
