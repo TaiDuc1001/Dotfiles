@@ -15,7 +15,7 @@
 | -         | .gitconfig              | C:\Users\Admin\                 |
 | -         | .bash_history           | C:\Users\Admin\                 |
 | -         | .bash_profile           | C:\Users\Admin\                 |
--->
+bruh-->
 
 
 
