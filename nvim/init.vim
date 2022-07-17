@@ -12,7 +12,7 @@ set foldmethod=manual
 set ignorecase 
 set foldcolumn=3
 set cursorline
-set cursorlineopt=number 
+set cursorlineopt=number
 set showcmd
 set wrap linebreak
 let NERDTreeShowHidden=1
@@ -27,20 +27,19 @@ autocmd vimenter * setlocal signcolumn=yes:1
 call plug#begin('~/AppData/Local/nvim/plugged')
 
 " Alias?
-	Plug 'Konfekt/vim-alias'
+	" Plug 'Konfekt/vim-alias'
 
 " Themes
-  Plug 'romainl/Apprentice'
-	Plug 'morhetz/gruvbox'
-  Plug 'catppuccin/vim'
-  Plug 'savq/melange'
-  Plug 'arcticicestudio/nord-vim'
-  Plug 'pineapplegiant/spaceduck'
+	" plug 'romainl/apprentice'
+	" plug 'morhetz/gruvbox'
+	" plug 'catppuccin/vim'
+	" plug 'savq/melange'
+	" plug 'arcticicestudio/nord-vim'
+	" plug 'pineapplegiant/spaceduck'
+	" Plug 'sainnhe/edge'
+	" Plug 'sainnhe/sonokai'
+	" Plug 'kaicataldo/material.vim'
 	Plug 'phanviet/vim-monokai-pro'
-	Plug 'sainnhe/edge'
-	Plug 'sainnhe/sonokai'
-	Plug 'kaicataldo/material.vim'
-
 
 " File browser
 	Plug 'preservim/nerdTree' 						
@@ -61,7 +60,7 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 	Plug 'voldikss/vim-floaterm' 	
 
 " Intellicense
-  Plug 'neoclide/coc.nvim', {'branch': 'release'} 
+	Plug 'neoclide/coc.nvim', {'branch': 'release'} 
 	Plug 'jiangmiao/auto-pairs'
 	Plug 'alvan/vim-closetag'
 	Plug 'mattn/emmet-vim'
