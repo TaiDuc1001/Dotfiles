@@ -3,7 +3,7 @@ set mouse=a
 set nuw=5
 set number
 set tabstop=2
-set guifont=FiraCode\ NF\ 20
+set guifont=FiraCode\ NF:h14
 set shiftwidth=2 
 set expandtab
 set listchars=tab:\ \ 
@@ -64,7 +64,6 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 " Intellicense
 	Plug 'neoclide/coc.nvim', {'branch': 'release'} 
 	Plug 'jiangmiao/auto-pairs'
-	Plug 'alvan/vim-closetag'
 	Plug 'mattn/emmet-vim'
 	Plug 'preservim/nerdcommenter'
 	Plug 'liuchengxu/vista.vim'
@@ -130,8 +129,7 @@ execute 'source'.nvim_settings_dir.'coc.vim'
 execute 'source'.nvim_settings_dir.'vimspector.vim'
 execute 'source'.nvim_settings_dir.'nerdcommenter.vim'
 execute 'source'.nvim_settings_dir.'vim-gitgutter.vim'
-
-
+execute 'source'.nvim_settings_dir.'vim-auto-save.vim'
 
 
 
