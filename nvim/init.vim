@@ -16,16 +16,18 @@ set cursorlineopt=number
 set showcmd
 set wrap linebreak
 let NERDTreeShowHidden=1
-
+let init = 'cd '.'C:\Users\DUC\AppData\Local\nvim'
+let config = 'cd '.'C:\Users\DUC\Documents\Code\Config'
 
 syntax on
-
 autocmd vimenter * setlocal signcolumn=yes:1
 
 
 " Plugins
 call plug#begin('~/AppData/Local/nvim/plugged')
 
+" Auto save
+  Plug '907th/vim-auto-save'
 " Alias?
 	" Plug 'Konfekt/vim-alias'
 
