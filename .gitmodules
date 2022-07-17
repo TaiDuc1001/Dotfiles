@@ -1,0 +1,3 @@
+[submodule "nvim/plugged/vim-auto-save"]
+	path = nvim/plugged/vim-auto-save
+	url = https://github.com/907th/vim-auto-save
