@@ -2,6 +2,7 @@
 set mouse=a
 set nuw=5
 set number
+set relativenumber
 set tabstop=2
 set guifont=FiraCode\ NF:h14
 set shiftwidth=2 
@@ -16,11 +17,28 @@ set cursorlineopt=number
 set showcmd
 set wrap linebreak
 let NERDTreeShowHidden=1
+
+" Create alias
 let init = 'cd '.'C:\Users\DUC\AppData\Local\nvim'
 let config = 'cd '.'C:\Users\DUC\Documents\Code\Config'
 
+	function s:foo(path)
+		execute a:path
+	endfunction
+		
+command! Init call s:foo(g:init)
+command! Config call s:foo(g:config)
+
+
 syntax on
 autocmd vimenter * setlocal signcolumn=yes:1
+
+
+" Disable backup
+set nobackup
+set nowb
+set noswapfile
+
 
 
 " Plugins
