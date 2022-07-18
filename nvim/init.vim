@@ -119,6 +119,12 @@ endif
 nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
 
+" Disable auto comment in new line
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+
+packloadall
+silent! helptags ALL
 
 " Search highlighted Text
 vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
