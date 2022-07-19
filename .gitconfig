@@ -10,6 +10,6 @@
 	version = HTTP/1.1
 	postBuffer = 524288000
 [alias]
-	log1 = log -15 --oneline --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)%C(reset)%C(bold yellow)%d%C(reset)' --all
+	log1 = log -12 --oneline --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)%C(reset)%C(bold yellow)%d%C(reset)' --all
 	log2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(bold yellow)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)' --all
 	lg = !"git lg1"
