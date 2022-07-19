@@ -103,6 +103,12 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 	Plug 'airblade/vim-gitgutter'
 
 call plug#end()
+nnoremap <C-/>   <Plug>NERDCommenterToggle
+vnoremap <C-/>   <Plug>NERDCommenterToggle<CR>gv
+
+
+" nnoremap <C-_>   <Plug>NERDCommenterToggle
+" vnoremap <C-_>   <Plug>NERDCommenterToggle<CR>gv
 
 
 " Set theme

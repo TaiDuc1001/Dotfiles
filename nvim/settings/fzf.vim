@@ -45,5 +45,5 @@ command! -bang -nargs=* RG call fzf#vim#grep("rg --column --line-number --no-   
 
 
 " History
-map <C-/> :History/<CR>
+" map <C-/> :History/<CR>
 

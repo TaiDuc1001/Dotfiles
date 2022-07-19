@@ -15,4 +15,4 @@ set guifont=FiraCode\ NF:h14
 
 " Set key map to paste 
 inoremap <silent> <S-Insert> <C-R>+
-
+" nnoremap <C-/> <leader>cc
