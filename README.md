@@ -29,7 +29,6 @@ bruh-->
 | d         | scoop                   | ``` C:\Users\{user}\                         ``` |																						|
 | d         | oh-my-posh              | ``` C:\Users\{user}\AppData\Local\           ``` |																						|
 | d         | nvim                    | ``` C:\Users\{user}\AppData\Local\           ``` |	neovim setting files.											|
-| d         | nvim-data               | ``` C:\Users\{user}\AppData\Local\           ``` |																						|
 | d         | .config                 | ``` C:\Users\{user}\                         ``` |	include profiles and scoop config.				|
 | -         | .bashrc                 | ``` C:\Users\{user}\                         ``` |	set bash's aliases.												|
 | -         | .bashrc.swp             | ``` C:\Users\{user}\                         ``` |																						|
