@@ -15,6 +15,7 @@ set-PSReadLineOption -PredictionViewStyle Listview
 set-PSReadLineOption -EditMode Emacs
 set-PSReadLineOption -BellStyle None
 
+
 #Search with Everything
 Set-Alias -Name ev -Value everything
 
@@ -22,7 +23,8 @@ Set-Alias -Name ev -Value everything
 Set-alias vim nvim
 Set-alias ll ls
 function init { cd 'C:\Users\DUC\AppData\Local\nvim' }
-Set-alias init.vim init
+function config { cd 'C:\Users\DUC\Documents\Code\Config' }
+# Set-alias init.vim init
 
 #Clear console
 clear
