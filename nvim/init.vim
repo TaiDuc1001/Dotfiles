@@ -17,21 +17,23 @@ set cursorlineopt=number
 set showcmd
 set wrap linebreak
 let NERDTreeShowHidden=1
+autocmd vimenter * set signcolumn=auto:1
 
 " Create alias
 let init = 'cd '.'C:\Users\DUC\AppData\Local\nvim'
 let config = 'cd '.'C:\Users\DUC\Documents\Code\Config'
 
+" Function call path
 	function s:foo(path)
 		execute a:path
 	endfunction
 		
+" Create new command by calling function
 command! Init call s:foo(g:init)
 command! Config call s:foo(g:config)
 
 
 syntax on
-autocmd vimenter * setlocal signcolumn=yes:1
 
 
 " Disable backup
@@ -46,6 +48,7 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 
 " Auto save
   Plug '907th/vim-auto-save'
+
 " Alias?
 	" Plug 'Konfekt/vim-alias'
 
