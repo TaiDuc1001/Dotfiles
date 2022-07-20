@@ -1,7 +1,8 @@
 {
     "coc.source.file.shortcut": "File",
     "powershell.integratedConsole.showOnStartup": false,
-   "coc.source.around.shortcut": "?",
+    "markdown-preview-enhanced.enableScriptExecution": true,
+    "coc.source.around.shortcut": "?",
     //"suggest.disableKind": true,
     "suggest.completionItemKindLabels": {
         "keyword": "\uf1de",
