@@ -1,6 +1,7 @@
 {
     "coc.source.file.shortcut": "File",
-    "coc.source.around.shortcut": "?",
+    "powershell.integratedConsole.showOnStartup": false,
+   "coc.source.around.shortcut": "?",
     //"suggest.disableKind": true,
     "suggest.completionItemKindLabels": {
         "keyword": "\uf1de",
