@@ -1,6 +1,107 @@
+[submodule "nvim/plugged/auto-pairs"]
+	path = nvim/plugged/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+
+[submodule "nvim/plugged/vim-surround"]
+	path = nvim/plugged/vim-surround
+	url = https://github.com/tpope/vim-surround
+
+[submodule "nvim/plugged/vim-css-color"]
+	path = nvim/plugged/vim-css-color
+	url = https://github.com/ap/vim-css-color
+
+[submodule "nvim/plugged/nerdTree"]
+	path = nvim/plugged/nerdTree
+	url = https://github.com/preservim/nerdTree
+
+[submodule "nvim/plugged/nerdtree-git-plugin"]
+	path = nvim/plugged/nerdtree-git-plugin
+	url = https://github.com/Xuyuanp/nerdtree-git-plugin
+
+[submodule "nvim/plugged/vim-devicons"]
+	path = nvim/plugged/vim-devicons
+	url = https://github.com/ryanoasis/vim-devicons
+
+[submodule "nvim/plugged/vim-nerdtree-syntax-highlight"]
+	path = nvim/plugged/vim-nerdtree-syntax-highlight
+	url = https://github.com/tiagofumo/vim-nerdtree-syntax-highlight
+
+[submodule "nvim/plugged/vim-nerdtree-sync"]
+	path = nvim/plugged/vim-nerdtree-sync
+	url = https://github.com/unkiwii/vim-nerdtree-sync
+
+[submodule "nvim/plugged/fzf"]
+	path = nvim/plugged/fzf
+	url = https://github.com/junegunn/fzf
+
+[submodule "nvim/plugged/fzf.vim"]
+	path = nvim/plugged/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+
+[submodule "nvim/plugged/vim-airline"]
+	path = nvim/plugged/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+
+[submodule "nvim/plugged/im-airline-themes"]
+	path = nvim/plugged/im-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+
+[submodule "nvim/plugged/vim-floaterm"]
+	path = nvim/plugged/vim-floaterm
+	url = https://github.com/voldikss/vim-floaterm
+
+[submodule "nvim/plugged/coc.nvim"]
+	path = nvim/plugged/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
+
+[submodule "nvim/plugged/auto-pairs"]
+	path = nvim/plugged/auto-pairs
+	url = https://github.com/jiangmiao/auto-pairs
+
+[submodule "nvim/plugged/emmet-vim"]
+	path = nvim/plugged/emmet-vim
+	url = https://github.com/mattn/emmet-vim
+
+[submodule "nvim/plugged/nerdcommenter"]
+	path = nvim/plugged/nerdcommenter
+	url = https://github.com/preservim/nerdcommenter
+
+[submodule "nvim/plugged/vim-closetag"]
+	path = nvim/plugged/vim-closetag
+	url = https://github.com/alvan/vim-closetag
+
+[submodule "nvim/plugged/vim-js"]
+	path = nvim/plugged/vim-js
+	url = https://github.com/yuezk/vim-js
+
+[submodule "nvim/plugged/vim-polyglot"]
+	path = nvim/plugged/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+
+[submodule "nvim/plugged/vim-lsp-cxx-highlight"]
+	path = nvim/plugged/vim-lsp-cxx-highlight
+	url = https://github.com/jackguo380/vim-lsp-cxx-highlight
+
+[submodule "nvim/plugged/vimspector"]
+	path = nvim/plugged/vimspector
+	url = https://github.com/puremourning/vimspector
+
+[submodule "nvim/plugged/vim-fugitive"]
+	path = nvim/plugged/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+
+[submodule "nvim/plugged/vim-gitgutter"]
+	path = nvim/plugged/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+
+[submodule "nvim/plugged/vista.vim"]
+	path = nvim/plugged/vista.vim
+	url = https://github.com/liuchengxu/vista.vim
+
 [submodule "nvim/plugged/vim-auto-save"]
 	path = nvim/plugged/vim-auto-save
 	url = https://github.com/907th/vim-auto-save
+
 [submodule "nvim/plugged/nvim/plugged/vim-carbon-now-sh"]
 	path = nvim/plugged/vim-carbon-now-sh
 	url = https://github.com/kristijanhusak/vim-carbon-now-sh
