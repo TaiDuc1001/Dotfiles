@@ -48,7 +48,9 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 
 " Auto save
   Plug '907th/vim-auto-save'
-
+  Plug 'tpope/vim-surround'
+Plug 'kristijanhusak/vim-carbon-now-sh'
+  Plug 'ap/vim-css-color'
 " Alias?
 	" Plug 'Konfekt/vim-alias'
 
@@ -105,7 +107,7 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 call plug#end()
 nnoremap <C-/>   <Plug>NERDCommenterToggle
 vnoremap <C-/>   <Plug>NERDCommenterToggle<CR>gv
-
+vnoremap <silent> <F9> :CarbonNowSh<CR>
 
 " nnoremap <C-_>   <Plug>NERDCommenterToggle
 " vnoremap <C-_>   <Plug>NERDCommenterToggle<CR>gv
