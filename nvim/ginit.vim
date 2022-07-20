@@ -1,5 +1,5 @@
 GuiPopupmenu 0
-
+GuiScrollBar 1
 " Enable line
 GuiLinespace 0
 
