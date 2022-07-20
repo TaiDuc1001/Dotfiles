@@ -2,5 +2,5 @@
 	path = nvim/plugged/vim-auto-save
 	url = https://github.com/907th/vim-auto-save
 [submodule "nvim/plugged/nvim/plugged/vim-carbon-now-sh"]
-	path = nvim/plugged/nvim/plugged/vim-carbon-now-sh
+	path = nvim/plugged/vim-carbon-now-sh
 	url = https://github.com/kristijanhusak/vim-carbon-now-sh
