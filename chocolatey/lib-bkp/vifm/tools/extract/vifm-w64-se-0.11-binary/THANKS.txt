@@ -1,0 +1,253 @@
+People named in this file helped make vifm better, less buggy and more portable
+by providing their ideas, suggestions, bug reports and pieces of code.
+
+Names (or nick names) are in alphabetical order.
+
+45jqlakjrf87ayte7hy34ter4nguijauzl4eitk
+Abd.. Roig-Maranges (aroig)
+aca
+afsheenb
+agguser
+Alborz Jafari
+Alejandro Pulver (alepulver)
+aleksejrs
+Alexandru Geana (alegen)
+Allan Neal (akneal)
+Allison McNulty (allora)
+AndreaHasani
+Andrew Lannan
+Anton Gepting
+Anton Kochkov (XVilka)
+Artur Shaik (artur-shaik)
+astrell
+Aurelio Sanabria (Sufrostico)
+Badalisc
+Bas Bossink (basbossink)
+Bearcat M. è..≠ndor (bearcatsandor)
+Behrooz
+Ben Boeckel (mathstuf)
+Bernhard Grotz
+blurm
+bratekarate
+Brian Callahan (ibara)
+Bruce Hunsaker (hunsakerbn)
+bsdmp
+c02y
+Carl Mueller (carlmuller)
+Carlos Pita
+Charles Kauffman
+chelovechishko
+Chema Alonso Josa (nimiux)
+Christian Fillion (cfillion)
+Christian Herdtweck
+Christoph (informationen)
+ckester
+Coco 17dec
+CoreCube
+Cosmin Popescu (cosminadrianpopescu)
+Damian Ariel Perticone
+dancread
+Daniel Dettlaff (dmilith)
+Daniel Mueller (d-e-s-o)
+Daniel Polanco (dlpolanco)
+Daniel R. (r1chelt)
+Denis Protivenskiy
+Dennis Hamester
+dikiy
+Diogo Lemos (dmlemos)
+Dmitry Frank (dimonomid)
+eco0414
+Egor Gumenyuk (boo1ean)
+einhander
+elricbk
+emarsk
+Factorial Prime
+Fang (peromage)
+filterfalse
+Flaviu Tamas (flaviut)
+Florian Baumann (derflob)
+fogine
+gammaray
+gcmt
+Gene Zharov
+geo909
+GeorgeHJ
+Gomme Bidule
+granderil
+greye
+gtors
+Hans Bieshaar
+Hans Kristian Otnes Berge
+Hans Petter Jansson (hpjansson)
+Hendrik Jaeger (henk)
+hofheinz
+hutou
+Ink (inknoir)
+iSeeU816
+j-xella
+Jason Dreisbach (a.k.a. jtdreisb)
+Jason W. Ryan
+Jeet Sukumaran (jeetsukumaran)
+Jeffrey C. Albro (jalbro)
+Jing Liu
+Jiri Wiesner (jiriwiesner)
+Jochen Schweizer (durcheinandr)
+Johannes (johannesmeng)
+John Fred Fadrigalan (cevhyruz)
+John Magolske
+John Shea (coachshea)
+Jose Riha (jose1711)
+Joseph LP (ootput)
+Josh Wainwright (joshaw)
+jsmith51 (metal.lunchbox)
+kalterfive
+kangshugang
+Karol M. Langner (langner)
+kazufukurou
+Ken Allen (cardboard42)
+Kendrick Taylor (sixcircuit)
+khaoos-abominable
+Konst Mayer (cdlscpmv)
+Kornel
+ks1c
+ksandr1v
+laggardkernel
+landhar
+Larry Hynes (larryhynes)
+lcj
+Lomov Vladimir (lomov_vl)
+loongw
+Losiara
+lyuts
+m-fonseca
+m-kru
+Ma_Sys.ma
+MadMaverick9
+Marcin Juszkiewicz (hrw)
+Marcin Kurczewski (rr-)
+Marcos Cruz
+Marius Schmidl
+Martin Fischer
+Marton Balazs (balmar)
+mateusz28
+Matthias Braun (mb720)
+maxigaz
+Melandel
+Merovius
+mhdzli
+Michael Corvin
+Michael Kopp
+Michael Maddern (madders)
+Michael Vetter (jubalh)
+Michal Belica (beli-sk)
+Michel Normand
+Michelle Bonk (unixtechie)
+Milan Svoboda (tex)
+Miles (pkordy)
+mini-turtle
+Miodrag Tokié. (loonies)
+mrajner
+mvucBmM0
+mwgkgk
+nandox
+nicodebo
+Normen Hansen (normen)
+obtroston
+octos
+Oleg Gordienko (gordio)
+Ondrej Novy (onovy)
+oo-
+opennota
+ovk
+Pavel (neoascetic)
+Pavel Platto (hinidu)
+Pavneet Arora
+Paweè. Smolak (psmolak)
+Peter Barnes
+petRUShka
+phijor
+Phil Runninger
+Philipp
+Philipp Glira (pglira)
+Pierre Dorbais (chdorb)
+piotryordanov
+qinghao (haobug)
+r0ck
+r44083
+rafasc
+Rainer Suhm
+randomizedthinking
+rbong
+Regis
+RetekBacsi
+Reva Revadigar
+Richard Benson
+Robert Pergl (perglr)
+Robert Sarkozi
+Roger Bongers
+Roman Pl.≠è≠il (Quiark)
+Ross Hadden (rosshadden)
+Ruslan Osmanov (rosmanov)
+Russell Urquhart
+SanLe
+santhoshr
+Sassan Haradji (sassanh)
+Schmalzhaf Stefan
+SearyBlue
+Sebastian Cyprych
+Seok Won Lee (ijleesw)
+Sergei Shilovsky
+Seth VanHeulen (svanheulen)
+Shakil Akhtar
+Shawn Young (drphys)
+sirex (sirexas)
+Sitaram Chamarty
+smpolymen
+Stas Malavin
+Stas Panteleev
+Stephano (cao)
+Stephen Horst (sjhorst)
+Stephen L. Holtz (stephenholtz)
+St..phane (istib)
+sudo-nice
+Svadkos
+Svenn Are Bjerkem (svenn)
+svenn71
+Svyatoslav Mishyn (juef)
+tagwint
+th1rdey3
+Thomas Nemeth
+Tiago
+Tim Schaeffer (Numeromancer)
+TobiSGD
+Tom Jansen
+Tomek K. (TomiCode)
+TornaxO7
+Tuan Bui (tuanbass)
+tYGjQCsvVI
+Tykin
+Tyler Spivey
+Typo
+Valery Ushakov (nbuwe)
+verdult
+Vigi
+Vlad Glagolev (Stealth)
+Von Welch
+vzel
+willemw12
+y2kbugger
+Xirui Zhao (xiruizhao)
+Yang Zou
+yanzhang0219
+Yusuf Aktepe
+Zsolt Udvari (uzsolt)
+zsugabubus
+...˝...Ê.´.... ...¯•....˝ (ezharov)
+.≠.Ê•....Ê.. .≠...Ø...˝•.•..˝ (Sergej Soloviov)
+
+Special thanks to Colin Cartade for a lot of useful ideas, alpha testing on
+Linux and his will to make vifm better.  Another big thanks to Alexandre Viau
+for alpha testing on Windows and useful suggestions.  Acknowledgments also to
+filterfalse for his valuable suggestions, plugin/documentation patches and
+constant feedback.  Another great user is Svyatoslav Mishyn (a.k.a. juef),
+who performs alpha testing and provides valuable feedback.

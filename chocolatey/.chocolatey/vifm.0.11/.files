@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <files>
+    <file path="C:\ProgramData\chocolatey\lib\vifm\vifm-w64-se-0.11-binary_x64.zip.txt" checksum="CDC3A172ED9930194B1305B549754F57" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\vifm.nupkg" checksum="1ED7574115CF57EC59CC5D714C646851" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\vifm.nuspec" checksum="DD73ABC44F3E7AD14060FC23EF90A86E" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\legal\LICENSE.txt" checksum="73EEB1F36F4AA0DF658CA7DA2F2DBCF2" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\legal\VERIFICATION.txt" checksum="B6FA6A1BDA25A2D1413B7C74B243FE10" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\chocolateyinstall.ps1" checksum="FE9B8DBF71FE7590ED73CBC355918E46" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\vifm-w64-se-0.11-binary_x64.zip" checksum="D5515AB2FDBE6C5EA02DC68F51E5B420" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\AUTHORS.txt" checksum="4891DAE7A9ECE15007C94C45F93F67AB" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\BUGS.txt" checksum="4C33450CD89ABA9E8E77B955A70186F6" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\ChangeLog.txt" checksum="7A011C40B6052005C3451A6EE2E838DD" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\COPYING.3party.txt" checksum="06DA2F32FA78343ACD2FBBFE9C665B07" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\COPYING.txt" checksum="FFA10F40B98BE2C2BC9608F56827ED23" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\FAQ.txt" checksum="AC0C7FEEB49A07C4E74A43EF90B44A2F" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\INSTALL.txt" checksum="7496F3D949D8CF19C48DCB1DD4A83860" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\NEWS.txt" checksum="2CC7AF17ECCEC888EA6D979C37A514AD" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\README.txt" checksum="7A2F3D453813B69825C4D3C8598727BA" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\THANKS.txt" checksum="FE7F0EC4766BE1EA1E30EA9E5BA66171" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\TODO.txt" checksum="ABC380EBCD63A4035E7DDC87EAF92675" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\vifm-pause" checksum="F2A249DAB9F0E6A5F1BD8282933D51EA" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\vifm.exe" checksum="D22EE568B29E85B99EE5A9698A88D4CB" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\win_helper.exe" checksum="6523C451EC5E57BDA656CD550E088397" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\win_helper.exe.ignore" checksum="D41D8CD98F00B204E9800998ECF8427E" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vifm-help.txt" checksum="A5F9AE68C3D96B836233AF0D9F43A2DB" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vifm-media" checksum="BF90AD42B4E8F4C5FB67103DCB3AD8D6" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vifm-media-osx" checksum="C288D1EEE7BDCC3758C72A9B42D02857" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vifmrc" checksum="5999306CA19950D38664388E4F517900" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vifmrc-osx" checksum="18923EBF2C34F09D8E2420E615F7CCD2" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\colors\astrell-root.vifm" checksum="57709E0DE1D80369A3BEEEBB9738407E" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\colors\astrell-user.vifm" checksum="875172DE47AD1036376F0C9041AEE8DF" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\colors\Default-256.vifm" checksum="C1A6B47E69A3CB78F64E1807D78D132C" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\colors\dmilith-root.vifm" checksum="19C09805DE64FBA6F7C3C9CCAF3932C2" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\colors\dmilith-user.vifm" checksum="D2F17E780E2CE073949C8D06B2A1BC60" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\colors\istib-solarized-dark.vifm" checksum="16DACD9CCCF6A8A4BC7A46ADED46DEC2" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\colors\juef-zenburn.vifm" checksum="836798EF16968E25DB632C2C11804259" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\colors\reicheltd-light.vifm" checksum="42C8976232E294783C80E73BC27FE883" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\graphics\screenshot.png" checksum="E8F86823A6B5FB484373005B0BA9FBD3" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\graphics\vifm.ico" checksum="58B9FB4A59BD53B640B496944480462A" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\graphics\vifm.png" checksum="68794220217818ABA3152DAE8E33AD86" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\graphics\vifm.svg" checksum="982D5333454E5266D6D4DEA1C86B54AA" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\shell-completion\bash\vifm" checksum="9828465345968F5FBD27F3F82208C368" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\shell-completion\zsh\_vifm" checksum="F5AA93148D5AC9C74533B20651F668BD" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\autoload\vifm\colorconv.vim" checksum="E5A51A0B05A3C08B2446D31540212464" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\autoload\vifm\edit.vim" checksum="41176C92976CAADD5A129DC88DBDFE05" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\autoload\vifm\globals.vim" checksum="F0ABC6A0237B7BE92B611597DEA35FA7" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\doc\vifm-plugin.txt" checksum="F86AC15769BC309FA5D6894C1B6738F9" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\ftdetect\vifm-rename.vim" checksum="FAD92CC532A6B979C339295C884B2340" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\ftdetect\vifm.vim" checksum="41E86CFAB8248E43C3BC8B5B7465D548" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\ftplugin\mail_vifm.vim" checksum="EFC06D9A3105247B8ACFA824F6EAADCD" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\ftplugin\vifm-cmdedit.vim" checksum="1FC0E24930E511E213D608F1C9351AA8" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\ftplugin\vifm-edit.vim" checksum="3477340DE0BBC2CCD64D1A89CC0185FC" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\ftplugin\vifm-rename.vim" checksum="6E8E1B6FE875C35787D5E6C58E984636" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\ftplugin\vifm.vim" checksum="13013D6C805D2CFAB41223D9316524B0" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\plugin\vifm.vim" checksum="49DF77E8D3D1CB0D6086FEFD987B19FF" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim\syntax\vifm.vim" checksum="93A6DE24F19BD6CB217574690DE609F9" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim-doc\doc\tags" checksum="CF851BBB81746C661D6E59E28F71BD9B" />
+    <file path="C:\ProgramData\chocolatey\lib\vifm\tools\extract\vifm-w64-se-0.11-binary\data\vim-doc\doc\vifm-app.txt" checksum="5136DFC9CBF8272EEDB712D32785BD9F" />
+  </files>
+</fileSnapshot>
