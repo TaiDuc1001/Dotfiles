@@ -49,12 +49,22 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 
 " Auto save
   Plug '907th/vim-auto-save'
+	
+" Surrounding object
   Plug 'tpope/vim-surround'
+
+" Carbon Plugin
   Plug 'kristijanhusak/vim-carbon-now-sh'
-  Plug 'vifm/vifm.vim'
+
+" Vim file manager
+  " Plug 'vifm/vifm.vim'
+
+" Color highlighter
   Plug 'ap/vim-css-color'
+
+" Dashboard startup
   Plug 'glepnir/dashboard-nvim'
-	Plug 'liuchengxu/vim-clap'
+
 " Alias?
 	" Plug 'Konfekt/vim-alias'
 
@@ -78,8 +88,9 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 	Plug 'unkiwii/vim-nerdtree-sync'
 
 " Fuzzy finder
-	" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-	" Plug 'junegunn/fzf.vim'
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	Plug 'junegunn/fzf.vim'
+	" Plug 'liuchengxu/vim-clap'
 
 " Airline
 	Plug 'vim-airline/vim-airline'
@@ -109,19 +120,10 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 	Plug 'airblade/vim-gitgutter'
 
 call plug#end()
-nnoremap <C-/>   <Plug>NERDCommenterToggle
-vnoremap <C-/>   <Plug>NERDCommenterToggle<CR>gv
-vnoremap <silent> <F9> :CarbonNowSh<CR>
-
-" nnoremap <C-_>   <Plug>NERDCommenterToggle
-" vnoremap <C-_>   <Plug>NERDCommenterToggle<CR>gv
-
 
 " Set theme
 set termguicolors
 colorscheme monokai_pro
-" let g:indentLine_fileTypeExclude = ['dashboard']
-" let g:dashboard_default_executive ='clap'
 
 " Enable clipboard Windows
 if has('win32')
@@ -135,15 +137,21 @@ endif
 nnoremap  <silent>   <tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bnext<CR>
 nnoremap  <silent> <s-tab>  :if &modifiable && !&readonly && &modified <CR> :write<CR> :endif<CR>:bprevious<CR>
 
+
 " Disable auto comment in new line
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
 
 
 packloadall
 silent! helptags ALL
 
+
+
 " Search highlighted Text
 vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+
+
 
 
 " Reload changes outside
@@ -160,26 +168,23 @@ autocmd FileChangedShellPost *
 
 
 " Load setting files
-let nvim_settings_dir = '~\AppData\Local\nvim\settings\'
-execute 'source'.nvim_settings_dir.'nerdtree.vim'
-execute 'source'.nvim_settings_dir.'fzf.vim'
-execute 'source'.nvim_settings_dir.'floaterm.vim'
-execute 'source'.nvim_settings_dir.'airline.vim'
-execute 'source'.nvim_settings_dir.'coc.vim'
-execute 'source'.nvim_settings_dir.'vimspector.vim'
-execute 'source'.nvim_settings_dir.'nerdcommenter.vim'
-execute 'source'.nvim_settings_dir.'vim-gitgutter.vim'
-execute 'source'.nvim_settings_dir.'dashboard-nvim.vim'
-execute 'source'.nvim_settings_dir.'vim-auto-save.vim'
+" let nvim_settings_dir = '~\AppData\Local\nvim\settings\'
+" execute 'source'.nvim_settings_dir.'nerdtree.vim'
+" execute 'source'.nvim_settings_dir.'fzf.vim'
+" execute 'source'.nvim_settings_dir.'floaterm.vim'
+" execute 'source'.nvim_settings_dir.'airline.vim'
+" execute 'source'.nvim_settings_dir.'coc.vim'
+" execute 'source'.nvim_settings_dir.'vimspector.vim'
+" execute 'source'.nvim_settings_dir.'nerdcommenter.vim'
+" execute 'source'.nvim_settings_dir.'vim-gitgutter.vim'
+" execute 'source'.nvim_settings_dir.'dashboard-nvim.vim'
+" execute 'source'.nvim_settings_dir.'vim-auto-save.vim'
+
+" Load setting files
+for setting_file in split(glob(stdpath('config').'/settings/*.vim'))
+	execute 'source' setting_file
+endfor
 
 
 
 
- "
- " let g:dashboard_custom_shortcut_icon['last_session'] = ' '
- " let g:dashboard_custom_shortcut_icon['find_history'] = 'ﭯ '
- " let g:dashboard_custom_shortcut_icon['find_file'] = ' '
- " let g:dashboard_custom_shortcut_icon['new_file'] = ' '
- " let g:dashboard_custom_shortcut_icon['change_colorscheme'] = ' '
- " let g:dashboard_custom_shortcut_icon['find_word'] = ' '
- " let g:dashboard_custom_shortcut_icon['book_marks'] = ' '
