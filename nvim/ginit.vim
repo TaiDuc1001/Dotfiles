@@ -1,5 +1,5 @@
 GuiPopupmenu 0
-GuiScrollBar 1
+GuiScrollBar 0
 " Enable line
 GuiLinespace 0
 
@@ -7,7 +7,7 @@ GuiLinespace 0
 GuiTabline 0
 
 " Set format of tab name 
-set guitablabel=\[%N\]\ %t\ %M 
+set guitablabel=\[%N\]\ %t\ %M
 
 " Set font
 set guifont=FiraCode\ NF:h14

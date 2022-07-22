@@ -1,4 +1,5 @@
 " General Settings
+autocmd FileType dashboard set showtabline=0 | autocmd WinLeave <buffer> set showtabline=2
 set mouse=a
 set nuw=5
 set number
@@ -49,8 +50,11 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 " Auto save
   Plug '907th/vim-auto-save'
   Plug 'tpope/vim-surround'
-Plug 'kristijanhusak/vim-carbon-now-sh'
+  Plug 'kristijanhusak/vim-carbon-now-sh'
+  Plug 'vifm/vifm.vim'
   Plug 'ap/vim-css-color'
+  Plug 'glepnir/dashboard-nvim'
+	Plug 'liuchengxu/vim-clap'
 " Alias?
 	" Plug 'Konfekt/vim-alias'
 
@@ -74,8 +78,8 @@ Plug 'kristijanhusak/vim-carbon-now-sh'
 	Plug 'unkiwii/vim-nerdtree-sync'
 
 " Fuzzy finder
-	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } } 
-	Plug 'junegunn/fzf.vim' 
+	" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	" Plug 'junegunn/fzf.vim'
 
 " Airline
 	Plug 'vim-airline/vim-airline'
@@ -116,7 +120,8 @@ vnoremap <silent> <F9> :CarbonNowSh<CR>
 " Set theme
 set termguicolors
 colorscheme monokai_pro
-
+" let g:indentLine_fileTypeExclude = ['dashboard']
+" let g:dashboard_default_executive ='clap'
 
 " Enable clipboard Windows
 if has('win32')
@@ -164,9 +169,17 @@ execute 'source'.nvim_settings_dir.'coc.vim'
 execute 'source'.nvim_settings_dir.'vimspector.vim'
 execute 'source'.nvim_settings_dir.'nerdcommenter.vim'
 execute 'source'.nvim_settings_dir.'vim-gitgutter.vim'
+execute 'source'.nvim_settings_dir.'dashboard-nvim.vim'
 execute 'source'.nvim_settings_dir.'vim-auto-save.vim'
 
 
 
 
-
+ "
+ " let g:dashboard_custom_shortcut_icon['last_session'] = ' '
+ " let g:dashboard_custom_shortcut_icon['find_history'] = 'ﭯ '
+ " let g:dashboard_custom_shortcut_icon['find_file'] = ' '
+ " let g:dashboard_custom_shortcut_icon['new_file'] = ' '
+ " let g:dashboard_custom_shortcut_icon['change_colorscheme'] = ' '
+ " let g:dashboard_custom_shortcut_icon['find_word'] = ' '
+ " let g:dashboard_custom_shortcut_icon['book_marks'] = ' '
