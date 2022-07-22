@@ -1,3 +1,11 @@
+[submodule "nvim/plugged/dashboard-nvim"]
+	path = nvim/plugged/dashboard-nvim
+	url = https://github.com/glepnir/dashboard-nvim
+
+[submodule "nvim/plugged/vim-clap"]
+	path = nvim/plugged/vim-clap
+	url = https://github.com/liuchengxu/vim-clap
+
 [submodule "nvim/plugged/auto-pairs"]
 	path = nvim/plugged/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs
