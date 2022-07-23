@@ -1,2 +1,3 @@
 .config/scoop/config.json
 scoop/persist/nvm/
+scoop/apps/nvm/
