@@ -1,6 +1,6 @@
 [submodule "nvim/plugged/dashboard-nvim"]
 	path = nvim/plugged/dashboard-nvim
-	url = https://github.com/glepnir/dashboard-nvim
+	url = https://github.com/applejwjcat/dashboard-nvim
 
 [submodule "nvim/plugged/vim-clap"]
 	path = nvim/plugged/vim-clap
