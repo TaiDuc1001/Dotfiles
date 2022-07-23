@@ -1,6 +1,17 @@
 " Default value is clap
 
-let g:dashboard_default_executive ='clap'
+" let g:indentLine_fileTypeExclude = ['dashboard']
+let g:dashboard_default_header = 'hydra'
+" let g:dashboard_custom_header = [
+" \ ' ███╗   ██╗ ███████╗ ██████╗  ██╗   ██╗ ██╗ ███╗   ███╗',
+" \ ' ████╗  ██║ ██╔════╝██╔═══██╗ ██║   ██║ ██║ ████╗ ████║',
+" \ ' ██╔██╗ ██║ █████╗  ██║   ██║ ██║   ██║ ██║ ██╔████╔██║',
+" \ ' ██║╚██╗██║ ██╔══╝  ██║   ██║ ╚██╗ ██╔╝ ██║ ██║╚██╔╝██║',
+" \ ' ██║ ╚████║ ███████╗╚██████╔╝  ╚████╔╝  ██║ ██║ ╚═╝ ██║',
+" \ ' ╚═╝  ╚═══╝ ╚══════╝ ╚═════╝    ╚═══╝   ╚═╝ ╚═╝     ╚═╝',
+" \]
+
+let g:dashboard_default_executive ='fzf'
 let g:mapleader="\<Space>"
 nmap <Leader>ss :<C-u>SessionSave<CR>
 nmap <Leader>sl :<C-u>SessionLoad<CR>
@@ -22,7 +33,7 @@ let g:dashboard_custom_shortcut={
   \ 'change_colorscheme' : 'SPC t c',
   \ 'find_word'          : 'SPC f a',
   \ 'book_marks'         : 'SPC f b',
-	\ }
+  \ }
 
 " let g:dashboard_custom_shortcut_icon['last_session'] = ' '
 " let g:dashboard_custom_shortcut_icon['find_history'] = 'ﭯ '

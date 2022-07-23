@@ -10,8 +10,8 @@ set shiftwidth=2
 set expandtab
 set listchars=tab:\ \ 
 set list
-set foldmethod=manual        
-set ignorecase 
+set foldmethod=manual
+set ignorecase
 set foldcolumn=3
 set cursorline
 set cursorlineopt=number
@@ -63,7 +63,7 @@ call plug#begin('~/AppData/Local/nvim/plugged')
   Plug 'ap/vim-css-color'
 
 " Dashboard startup
-  Plug 'glepnir/dashboard-nvim'
+  Plug 'applejwjcat/dashboard-nvim'
 
 " Alias?
 	" Plug 'Konfekt/vim-alias'
@@ -91,6 +91,7 @@ call plug#begin('~/AppData/Local/nvim/plugged')
 	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 	Plug 'junegunn/fzf.vim'
 	" Plug 'liuchengxu/vim-clap'
+
 
 " Airline
 	Plug 'vim-airline/vim-airline'
@@ -150,7 +151,6 @@ silent! helptags ALL
 
 " Search highlighted Text
 vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
-
 
 
 
