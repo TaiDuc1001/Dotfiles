@@ -1,0 +1,579 @@
+0 verbose cli C:\Users\DUC\scoop\apps\nodejs\current\node.exe C:\Users\DUC\scoop\apps\nodejs\current\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.12.1
+2 info using node@v18.5.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 5ms
+5 timing config:load:file:C:\Users\DUC\Documents\Code\Config\scoop\apps\nodejs\18.5.0\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 3ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:C:\Users\DUC\.npmrc Completed in 1ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:C:\Users\DUC\scoop\persist\nodejs\bin\etc\npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 0ms
+17 timing config:load Completed in 13ms
+18 timing npm:load:configload Completed in 14ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm i bash-language-server
+22 verbose argv "i" "--global" "bash-language-server"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing config:load:flatten Completed in 3ms
+25 timing npm:load:display Completed in 4ms
+26 verbose logfile logs-max:10 dir:C:\Users\DUC\scoop\persist\nodejs\cache\_logs
+27 verbose logfile C:\Users\DUC\scoop\persist\nodejs\cache\_logs\2022-07-23T11_05_38_382Z-debug-0.log
+28 timing npm:load:logFile Completed in 6ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 26ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile start cleaning logs, removing 2 files
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 7ms
+36 timing idealTree:userRequests Completed in 3ms
+37 silly idealTree buildDeps
+38 silly fetch manifest bash-language-server@*
+39 http fetch GET 200 https://registry.npmjs.org/bash-language-server 1269ms (cache revalidated)
+40 silly placeDep ROOT bash-language-server@3.0.5 OK for:  want: *
+41 silly fetch manifest fuzzy-search@^3.2.1
+42 silly fetch manifest glob@^8.0.0
+43 silly fetch manifest request@^2.83.0
+44 silly fetch manifest request-promise-native@^1.0.5
+45 silly fetch manifest turndown@^7.0.0
+46 silly fetch manifest urijs@^1.19.1
+47 silly fetch manifest vscode-languageserver@^6.1.1
+48 silly fetch manifest vscode-languageserver-textdocument@^1.0.1
+49 silly fetch manifest web-tree-sitter@^0.20.5
+50 http fetch GET 200 https://registry.npmjs.org/request-promise-native 948ms (cache revalidated)
+51 http fetch GET 200 https://registry.npmjs.org/request 1017ms (cache revalidated)
+52 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver-textdocument 1018ms (cache revalidated)
+53 http fetch GET 200 https://registry.npmjs.org/turndown 1028ms (cache revalidated)
+54 http fetch GET 200 https://registry.npmjs.org/fuzzy-search 1039ms (cache revalidated)
+55 http fetch GET 200 https://registry.npmjs.org/urijs 1045ms (cache revalidated)
+56 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver 1054ms (cache revalidated)
+57 http fetch GET 200 https://registry.npmjs.org/web-tree-sitter 1065ms (cache revalidated)
+58 http fetch GET 200 https://registry.npmjs.org/glob 1087ms (cache revalidated)
+59 timing idealTree:#root Completed in 2370ms
+60 silly placeDep node_modules/bash-language-server fuzzy-search@3.2.1 OK for: bash-language-server@3.0.5 want: ^3.2.1
+61 silly placeDep node_modules/bash-language-server glob@8.0.3 OK for: bash-language-server@3.0.5 want: ^8.0.0
+62 silly placeDep node_modules/bash-language-server request@2.88.2 OK for: bash-language-server@3.0.5 want: ^2.83.0
+63 silly placeDep node_modules/bash-language-server request-promise-native@1.0.9 OK for: bash-language-server@3.0.5 want: ^1.0.5
+64 silly placeDep node_modules/bash-language-server turndown@7.1.1 OK for: bash-language-server@3.0.5 want: ^7.0.0
+65 silly placeDep node_modules/bash-language-server urijs@1.19.11 OK for: bash-language-server@3.0.5 want: ^1.19.1
+66 silly placeDep node_modules/bash-language-server vscode-languageserver@6.1.1 OK for: bash-language-server@3.0.5 want: ^6.1.1
+67 silly placeDep node_modules/bash-language-server vscode-languageserver-textdocument@1.0.5 OK for: bash-language-server@3.0.5 want: ^1.0.1
+68 silly placeDep node_modules/bash-language-server web-tree-sitter@0.20.5 OK for: bash-language-server@3.0.5 want: ^0.20.5
+69 silly fetch manifest fs.realpath@^1.0.0
+70 silly fetch manifest inflight@^1.0.4
+71 silly fetch manifest inherits@2
+72 silly fetch manifest minimatch@^5.0.1
+73 silly fetch manifest once@^1.3.0
+74 silly fetch manifest aws-sign2@~0.7.0
+75 silly fetch manifest aws4@^1.8.0
+76 silly fetch manifest caseless@~0.12.0
+77 silly fetch manifest combined-stream@~1.0.6
+78 silly fetch manifest extend@~3.0.2
+79 silly fetch manifest forever-agent@~0.6.1
+80 silly fetch manifest form-data@~2.3.2
+81 silly fetch manifest har-validator@~5.1.3
+82 silly fetch manifest http-signature@~1.2.0
+83 silly fetch manifest is-typedarray@~1.0.0
+84 silly fetch manifest isstream@~0.1.2
+85 silly fetch manifest json-stringify-safe@~5.0.1
+86 silly fetch manifest mime-types@~2.1.19
+87 silly fetch manifest oauth-sign@~0.9.0
+88 silly fetch manifest performance-now@^2.1.0
+89 silly fetch manifest qs@~6.5.2
+90 silly fetch manifest safe-buffer@^5.1.2
+91 silly fetch manifest tough-cookie@~2.5.0
+92 silly fetch manifest tunnel-agent@^0.6.0
+93 silly fetch manifest uuid@^3.3.2
+94 silly fetch manifest request-promise-core@1.1.4
+95 silly fetch manifest stealthy-require@^1.1.1
+96 silly fetch manifest tough-cookie@^2.3.3
+97 silly fetch manifest domino@^2.1.6
+98 silly fetch manifest vscode-languageserver-protocol@^3.15.3
+99 http fetch GET 200 https://registry.npmjs.org/inflight 415ms (cache revalidated)
+100 http fetch GET 200 https://registry.npmjs.org/caseless 414ms (cache revalidated)
+101 http fetch GET 200 https://registry.npmjs.org/forever-agent 422ms (cache revalidated)
+102 http fetch GET 200 https://registry.npmjs.org/inherits 434ms (cache revalidated)
+103 http fetch GET 200 https://registry.npmjs.org/minimatch 437ms (cache revalidated)
+104 http fetch GET 200 https://registry.npmjs.org/once 462ms (cache revalidated)
+105 http fetch GET 200 https://registry.npmjs.org/har-validator 465ms (cache revalidated)
+106 http fetch GET 200 https://registry.npmjs.org/fs.realpath 478ms (cache revalidated)
+107 http fetch GET 200 https://registry.npmjs.org/extend 480ms (cache revalidated)
+108 http fetch GET 200 https://registry.npmjs.org/aws-sign2 692ms (cache revalidated)
+109 http fetch GET 200 https://registry.npmjs.org/tunnel-agent 683ms (cache revalidated)
+110 http fetch GET 200 https://registry.npmjs.org/isstream 691ms (cache revalidated)
+111 http fetch GET 200 https://registry.npmjs.org/safe-buffer 693ms (cache revalidated)
+112 http fetch GET 200 https://registry.npmjs.org/tough-cookie 691ms (cache revalidated)
+113 http fetch GET 200 https://registry.npmjs.org/is-typedarray 710ms (cache revalidated)
+114 http fetch GET 200 https://registry.npmjs.org/tough-cookie 707ms (cache revalidated)
+115 http fetch GET 200 https://registry.npmjs.org/performance-now 722ms (cache revalidated)
+116 http fetch GET 200 https://registry.npmjs.org/domino 759ms (cache revalidated)
+117 http fetch GET 200 https://registry.npmjs.org/uuid 928ms (cache revalidated)
+118 http fetch GET 200 https://registry.npmjs.org/stealthy-require 972ms (cache revalidated)
+119 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver-protocol 975ms (cache revalidated)
+120 http fetch GET 200 https://registry.npmjs.org/oauth-sign 991ms (cache revalidated)
+121 http fetch GET 200 https://registry.npmjs.org/combined-stream 1003ms (cache revalidated)
+122 http fetch GET 200 https://registry.npmjs.org/request-promise-core 993ms (cache revalidated)
+123 http fetch GET 200 https://registry.npmjs.org/json-stringify-safe 1042ms (cache revalidated)
+124 http fetch GET 200 https://registry.npmjs.org/form-data 1045ms (cache revalidated)
+125 http fetch GET 200 https://registry.npmjs.org/mime-types 1103ms (cache revalidated)
+126 http fetch GET 200 https://registry.npmjs.org/qs 1120ms (cache revalidated)
+127 http fetch GET 200 https://registry.npmjs.org/aws4 1134ms (cache revalidated)
+128 http fetch GET 200 https://registry.npmjs.org/http-signature 1142ms (cache revalidated)
+129 timing idealTree:node_modules/bash-language-server Completed in 1159ms
+130 timing idealTree:node_modules/bash-language-server/node_modules/fuzzy-search Completed in 1ms
+131 silly placeDep node_modules/bash-language-server fs.realpath@1.0.0 OK for: glob@8.0.3 want: ^1.0.0
+132 silly placeDep node_modules/bash-language-server inflight@1.0.6 OK for: glob@8.0.3 want: ^1.0.4
+133 silly placeDep node_modules/bash-language-server inherits@2.0.4 OK for: glob@8.0.3 want: 2
+134 silly placeDep node_modules/bash-language-server minimatch@5.1.0 OK for: glob@8.0.3 want: ^5.0.1
+135 silly placeDep node_modules/bash-language-server once@1.4.0 OK for: glob@8.0.3 want: ^1.3.0
+136 silly fetch manifest wrappy@1
+137 silly fetch manifest brace-expansion@^2.0.1
+138 http fetch GET 200 https://registry.npmjs.org/brace-expansion 303ms (cache revalidated)
+139 http fetch GET 200 https://registry.npmjs.org/wrappy 353ms (cache revalidated)
+140 timing idealTree:node_modules/bash-language-server/node_modules/glob Completed in 358ms
+141 timing idealTree:node_modules/bash-language-server/node_modules/fs.realpath Completed in 0ms
+142 silly placeDep node_modules/bash-language-server wrappy@1.0.2 OK for: inflight@1.0.6 want: 1
+143 timing idealTree:node_modules/bash-language-server/node_modules/inflight Completed in 1ms
+144 timing idealTree:node_modules/bash-language-server/node_modules/inherits Completed in 0ms
+145 silly placeDep node_modules/bash-language-server brace-expansion@2.0.1 OK for: minimatch@5.1.0 want: ^2.0.1
+146 silly fetch manifest balanced-match@^1.0.0
+147 http fetch GET 200 https://registry.npmjs.org/balanced-match 282ms (cache revalidated)
+148 timing idealTree:node_modules/bash-language-server/node_modules/minimatch Completed in 284ms
+149 silly placeDep node_modules/bash-language-server balanced-match@1.0.2 OK for: brace-expansion@2.0.1 want: ^1.0.0
+150 timing idealTree:node_modules/bash-language-server/node_modules/brace-expansion Completed in 1ms
+151 timing idealTree:node_modules/bash-language-server/node_modules/balanced-match Completed in 0ms
+152 timing idealTree:node_modules/bash-language-server/node_modules/once Completed in 0ms
+153 silly placeDep node_modules/bash-language-server aws-sign2@0.7.0 OK for: request@2.88.2 want: ~0.7.0
+154 silly placeDep node_modules/bash-language-server aws4@1.11.0 OK for: request@2.88.2 want: ^1.8.0
+155 silly placeDep node_modules/bash-language-server caseless@0.12.0 OK for: request@2.88.2 want: ~0.12.0
+156 silly placeDep node_modules/bash-language-server combined-stream@1.0.8 OK for: request@2.88.2 want: ~1.0.6
+157 silly placeDep node_modules/bash-language-server extend@3.0.2 OK for: request@2.88.2 want: ~3.0.2
+158 silly placeDep node_modules/bash-language-server forever-agent@0.6.1 OK for: request@2.88.2 want: ~0.6.1
+159 silly placeDep node_modules/bash-language-server form-data@2.3.3 OK for: request@2.88.2 want: ~2.3.2
+160 silly placeDep node_modules/bash-language-server har-validator@5.1.5 OK for: request@2.88.2 want: ~5.1.3
+161 silly placeDep node_modules/bash-language-server http-signature@1.2.0 OK for: request@2.88.2 want: ~1.2.0
+162 silly placeDep node_modules/bash-language-server is-typedarray@1.0.0 OK for: request@2.88.2 want: ~1.0.0
+163 silly placeDep node_modules/bash-language-server isstream@0.1.2 OK for: request@2.88.2 want: ~0.1.2
+164 silly placeDep node_modules/bash-language-server json-stringify-safe@5.0.1 OK for: request@2.88.2 want: ~5.0.1
+165 silly placeDep node_modules/bash-language-server mime-types@2.1.35 OK for: request@2.88.2 want: ~2.1.19
+166 silly placeDep node_modules/bash-language-server oauth-sign@0.9.0 OK for: request@2.88.2 want: ~0.9.0
+167 silly placeDep node_modules/bash-language-server performance-now@2.1.0 OK for: request@2.88.2 want: ^2.1.0
+168 silly placeDep node_modules/bash-language-server qs@6.5.3 OK for: request@2.88.2 want: ~6.5.2
+169 silly placeDep node_modules/bash-language-server safe-buffer@5.2.1 OK for: request@2.88.2 want: ^5.1.2
+170 silly placeDep node_modules/bash-language-server tough-cookie@2.5.0 OK for: request@2.88.2 want: ~2.5.0
+171 silly placeDep node_modules/bash-language-server tunnel-agent@0.6.0 OK for: request@2.88.2 want: ^0.6.0
+172 silly placeDep node_modules/bash-language-server uuid@3.4.0 OK for: request@2.88.2 want: ^3.3.2
+173 silly fetch manifest delayed-stream@~1.0.0
+174 silly fetch manifest asynckit@^0.4.0
+175 silly fetch manifest ajv@^6.12.3
+176 silly fetch manifest har-schema@^2.0.0
+177 silly fetch manifest assert-plus@^1.0.0
+178 silly fetch manifest jsprim@^1.2.2
+179 silly fetch manifest sshpk@^1.7.0
+180 silly fetch manifest mime-db@1.52.0
+181 silly fetch manifest psl@^1.1.28
+182 silly fetch manifest punycode@^2.1.1
+183 http fetch GET 200 https://registry.npmjs.org/har-schema 312ms (cache revalidated)
+184 http fetch GET 200 https://registry.npmjs.org/delayed-stream 316ms (cache revalidated)
+185 http fetch GET 200 https://registry.npmjs.org/mime-db 313ms (cache revalidated)
+186 http fetch GET 200 https://registry.npmjs.org/asynckit 317ms (cache revalidated)
+187 http fetch GET 200 https://registry.npmjs.org/assert-plus 326ms (cache revalidated)
+188 http fetch GET 200 https://registry.npmjs.org/jsprim 330ms (cache revalidated)
+189 http fetch GET 200 https://registry.npmjs.org/ajv 332ms (cache revalidated)
+190 http fetch GET 200 https://registry.npmjs.org/psl 346ms (cache revalidated)
+191 http fetch GET 200 https://registry.npmjs.org/sshpk 353ms (cache revalidated)
+192 http fetch GET 200 https://registry.npmjs.org/punycode 357ms (cache revalidated)
+193 timing idealTree:node_modules/bash-language-server/node_modules/request Completed in 373ms
+194 timing idealTree:node_modules/bash-language-server/node_modules/aws-sign2 Completed in 0ms
+195 timing idealTree:node_modules/bash-language-server/node_modules/aws4 Completed in 0ms
+196 timing idealTree:node_modules/bash-language-server/node_modules/caseless Completed in 0ms
+197 silly placeDep node_modules/bash-language-server delayed-stream@1.0.0 OK for: combined-stream@1.0.8 want: ~1.0.0
+198 timing idealTree:node_modules/bash-language-server/node_modules/combined-stream Completed in 1ms
+199 timing idealTree:node_modules/bash-language-server/node_modules/delayed-stream Completed in 0ms
+200 timing idealTree:node_modules/bash-language-server/node_modules/extend Completed in 0ms
+201 timing idealTree:node_modules/bash-language-server/node_modules/forever-agent Completed in 0ms
+202 silly placeDep node_modules/bash-language-server asynckit@0.4.0 OK for: form-data@2.3.3 want: ^0.4.0
+203 timing idealTree:node_modules/bash-language-server/node_modules/form-data Completed in 1ms
+204 timing idealTree:node_modules/bash-language-server/node_modules/asynckit Completed in 0ms
+205 silly placeDep node_modules/bash-language-server ajv@6.12.6 OK for: har-validator@5.1.5 want: ^6.12.3
+206 silly placeDep node_modules/bash-language-server har-schema@2.0.0 OK for: har-validator@5.1.5 want: ^2.0.0
+207 silly fetch manifest fast-deep-equal@^3.1.1
+208 silly fetch manifest fast-json-stable-stringify@^2.0.0
+209 silly fetch manifest json-schema-traverse@^0.4.1
+210 silly fetch manifest uri-js@^4.2.2
+211 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse 299ms (cache revalidated)
+212 http fetch GET 200 https://registry.npmjs.org/uri-js 314ms (cache revalidated)
+213 http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify 316ms (cache revalidated)
+214 http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 318ms (cache revalidated)
+215 timing idealTree:node_modules/bash-language-server/node_modules/har-validator Completed in 320ms
+216 silly placeDep node_modules/bash-language-server fast-deep-equal@3.1.3 OK for: ajv@6.12.6 want: ^3.1.1
+217 silly placeDep node_modules/bash-language-server fast-json-stable-stringify@2.1.0 OK for: ajv@6.12.6 want: ^2.0.0
+218 silly placeDep node_modules/bash-language-server json-schema-traverse@0.4.1 OK for: ajv@6.12.6 want: ^0.4.1
+219 silly placeDep node_modules/bash-language-server uri-js@4.4.1 OK for: ajv@6.12.6 want: ^4.2.2
+220 silly fetch manifest punycode@^2.1.0
+221 timing idealTree:node_modules/bash-language-server/node_modules/ajv Completed in 3ms
+222 timing idealTree:node_modules/bash-language-server/node_modules/fast-deep-equal Completed in 0ms
+223 timing idealTree:node_modules/bash-language-server/node_modules/fast-json-stable-stringify Completed in 0ms
+224 timing idealTree:node_modules/bash-language-server/node_modules/har-schema Completed in 0ms
+225 silly placeDep node_modules/bash-language-server assert-plus@1.0.0 OK for: http-signature@1.2.0 want: ^1.0.0
+226 silly placeDep node_modules/bash-language-server jsprim@1.4.2 OK for: http-signature@1.2.0 want: ^1.2.2
+227 silly placeDep node_modules/bash-language-server sshpk@1.17.0 OK for: http-signature@1.2.0 want: ^1.7.0
+228 silly fetch manifest extsprintf@1.3.0
+229 silly fetch manifest json-schema@0.4.0
+230 silly fetch manifest verror@1.10.0
+231 silly fetch manifest asn1@~0.2.3
+232 silly fetch manifest dashdash@^1.12.0
+233 silly fetch manifest getpass@^0.1.1
+234 silly fetch manifest safer-buffer@^2.0.2
+235 silly fetch manifest jsbn@~0.1.0
+236 silly fetch manifest tweetnacl@~0.14.0
+237 silly fetch manifest ecc-jsbn@~0.1.1
+238 silly fetch manifest bcrypt-pbkdf@^1.0.0
+239 http fetch GET 200 https://registry.npmjs.org/extsprintf 323ms (cache revalidated)
+240 http fetch GET 200 https://registry.npmjs.org/ecc-jsbn 334ms (cache revalidated)
+241 http fetch GET 200 https://registry.npmjs.org/jsbn 337ms (cache revalidated)
+242 http fetch GET 200 https://registry.npmjs.org/tweetnacl 345ms (cache revalidated)
+243 http fetch GET 200 https://registry.npmjs.org/bcrypt-pbkdf 345ms (cache revalidated)
+244 http fetch GET 200 https://registry.npmjs.org/safer-buffer 348ms (cache revalidated)
+245 http fetch GET 200 https://registry.npmjs.org/verror 351ms (cache revalidated)
+246 http fetch GET 200 https://registry.npmjs.org/json-schema 352ms (cache revalidated)
+247 http fetch GET 200 https://registry.npmjs.org/asn1 360ms (cache revalidated)
+248 http fetch GET 200 https://registry.npmjs.org/getpass 360ms (cache revalidated)
+249 http fetch GET 200 https://registry.npmjs.org/dashdash 361ms (cache revalidated)
+250 timing idealTree:node_modules/bash-language-server/node_modules/http-signature Completed in 366ms
+251 timing idealTree:node_modules/bash-language-server/node_modules/assert-plus Completed in 0ms
+252 timing idealTree:node_modules/bash-language-server/node_modules/is-typedarray Completed in 0ms
+253 timing idealTree:node_modules/bash-language-server/node_modules/isstream Completed in 0ms
+254 timing idealTree:node_modules/bash-language-server/node_modules/json-schema-traverse Completed in 0ms
+255 timing idealTree:node_modules/bash-language-server/node_modules/json-stringify-safe Completed in 0ms
+256 silly placeDep node_modules/bash-language-server extsprintf@1.3.0 OK for: jsprim@1.4.2 want: 1.3.0
+257 silly placeDep node_modules/bash-language-server json-schema@0.4.0 OK for: jsprim@1.4.2 want: 0.4.0
+258 silly placeDep node_modules/bash-language-server verror@1.10.0 OK for: jsprim@1.4.2 want: 1.10.0
+259 silly fetch manifest core-util-is@1.0.2
+260 http fetch GET 200 https://registry.npmjs.org/core-util-is 304ms (cache revalidated)
+261 timing idealTree:node_modules/bash-language-server/node_modules/jsprim Completed in 307ms
+262 timing idealTree:node_modules/bash-language-server/node_modules/extsprintf Completed in 0ms
+263 timing idealTree:node_modules/bash-language-server/node_modules/json-schema Completed in 0ms
+264 silly placeDep node_modules/bash-language-server mime-db@1.52.0 OK for: mime-types@2.1.35 want: 1.52.0
+265 timing idealTree:node_modules/bash-language-server/node_modules/mime-types Completed in 1ms
+266 timing idealTree:node_modules/bash-language-server/node_modules/mime-db Completed in 0ms
+267 timing idealTree:node_modules/bash-language-server/node_modules/oauth-sign Completed in 0ms
+268 timing idealTree:node_modules/bash-language-server/node_modules/performance-now Completed in 0ms
+269 timing idealTree:node_modules/bash-language-server/node_modules/qs Completed in 0ms
+270 silly fetch manifest request@^2.34
+271 silly placeDep node_modules/bash-language-server request-promise-core@1.1.4 OK for: request-promise-native@1.0.9 want: 1.1.4
+272 silly placeDep node_modules/bash-language-server stealthy-require@1.1.1 OK for: request-promise-native@1.0.9 want: ^1.1.1
+273 silly fetch manifest lodash@^4.17.19
+274 http fetch GET 200 https://registry.npmjs.org/lodash 502ms (cache updated)
+275 timing idealTree:node_modules/bash-language-server/node_modules/request-promise-native Completed in 506ms
+276 silly placeDep node_modules/bash-language-server lodash@4.17.21 OK for: request-promise-core@1.1.4 want: ^4.17.19
+277 timing idealTree:node_modules/bash-language-server/node_modules/request-promise-core Completed in 1ms
+278 timing idealTree:node_modules/bash-language-server/node_modules/lodash Completed in 0ms
+279 timing idealTree:node_modules/bash-language-server/node_modules/safe-buffer Completed in 0ms
+280 silly placeDep node_modules/bash-language-server asn1@0.2.6 OK for: sshpk@1.17.0 want: ~0.2.3
+281 silly placeDep node_modules/bash-language-server bcrypt-pbkdf@1.0.2 OK for: sshpk@1.17.0 want: ^1.0.0
+282 silly placeDep node_modules/bash-language-server dashdash@1.14.1 OK for: sshpk@1.17.0 want: ^1.12.0
+283 silly placeDep node_modules/bash-language-server ecc-jsbn@0.1.2 OK for: sshpk@1.17.0 want: ~0.1.1
+284 silly placeDep node_modules/bash-language-server getpass@0.1.7 OK for: sshpk@1.17.0 want: ^0.1.1
+285 silly placeDep node_modules/bash-language-server jsbn@0.1.1 OK for: sshpk@1.17.0 want: ~0.1.0
+286 silly placeDep node_modules/bash-language-server safer-buffer@2.1.2 OK for: sshpk@1.17.0 want: ^2.0.2
+287 silly placeDep node_modules/bash-language-server tweetnacl@0.14.5 OK for: sshpk@1.17.0 want: ~0.14.0
+288 timing idealTree:node_modules/bash-language-server/node_modules/sshpk Completed in 5ms
+289 timing idealTree:node_modules/bash-language-server/node_modules/asn1 Completed in 0ms
+290 timing idealTree:node_modules/bash-language-server/node_modules/bcrypt-pbkdf Completed in 0ms
+291 timing idealTree:node_modules/bash-language-server/node_modules/dashdash Completed in 0ms
+292 timing idealTree:node_modules/bash-language-server/node_modules/ecc-jsbn Completed in 0ms
+293 timing idealTree:node_modules/bash-language-server/node_modules/getpass Completed in 0ms
+294 timing idealTree:node_modules/bash-language-server/node_modules/jsbn Completed in 0ms
+295 timing idealTree:node_modules/bash-language-server/node_modules/safer-buffer Completed in 0ms
+296 timing idealTree:node_modules/bash-language-server/node_modules/stealthy-require Completed in 0ms
+297 silly placeDep node_modules/bash-language-server psl@1.9.0 OK for: tough-cookie@2.5.0 want: ^1.1.28
+298 silly placeDep node_modules/bash-language-server punycode@2.1.1 OK for: tough-cookie@2.5.0 want: ^2.1.1
+299 timing idealTree:node_modules/bash-language-server/node_modules/tough-cookie Completed in 1ms
+300 timing idealTree:node_modules/bash-language-server/node_modules/psl Completed in 0ms
+301 timing idealTree:node_modules/bash-language-server/node_modules/punycode Completed in 0ms
+302 timing idealTree:node_modules/bash-language-server/node_modules/tunnel-agent Completed in 0ms
+303 silly placeDep node_modules/bash-language-server domino@2.1.6 OK for: turndown@7.1.1 want: ^2.1.6
+304 timing idealTree:node_modules/bash-language-server/node_modules/turndown Completed in 1ms
+305 timing idealTree:node_modules/bash-language-server/node_modules/domino Completed in 0ms
+306 timing idealTree:node_modules/bash-language-server/node_modules/tweetnacl Completed in 0ms
+307 timing idealTree:node_modules/bash-language-server/node_modules/uri-js Completed in 0ms
+308 timing idealTree:node_modules/bash-language-server/node_modules/urijs Completed in 0ms
+309 timing idealTree:node_modules/bash-language-server/node_modules/uuid Completed in 0ms
+310 silly placeDep node_modules/bash-language-server core-util-is@1.0.2 OK for: verror@1.10.0 want: 1.0.2
+311 timing idealTree:node_modules/bash-language-server/node_modules/verror Completed in 0ms
+312 timing idealTree:node_modules/bash-language-server/node_modules/core-util-is Completed in 0ms
+313 silly placeDep node_modules/bash-language-server vscode-languageserver-protocol@3.17.2 OK for: vscode-languageserver@6.1.1 want: ^3.15.3
+314 silly fetch manifest vscode-jsonrpc@8.0.2
+315 silly fetch manifest vscode-languageserver-types@3.17.2
+316 http fetch GET 200 https://registry.npmjs.org/vscode-jsonrpc 371ms (cache revalidated)
+317 http fetch GET 200 https://registry.npmjs.org/vscode-languageserver-types 384ms (cache revalidated)
+318 timing idealTree:node_modules/bash-language-server/node_modules/vscode-languageserver Completed in 387ms
+319 silly placeDep node_modules/bash-language-server vscode-jsonrpc@8.0.2 OK for: vscode-languageserver-protocol@3.17.2 want: 8.0.2
+320 silly placeDep node_modules/bash-language-server vscode-languageserver-types@3.17.2 OK for: vscode-languageserver-protocol@3.17.2 want: 3.17.2
+321 timing idealTree:node_modules/bash-language-server/node_modules/vscode-languageserver-protocol Completed in 1ms
+322 timing idealTree:node_modules/bash-language-server/node_modules/vscode-jsonrpc Completed in 0ms
+323 timing idealTree:node_modules/bash-language-server/node_modules/vscode-languageserver-textdocument Completed in 0ms
+324 timing idealTree:node_modules/bash-language-server/node_modules/vscode-languageserver-types Completed in 0ms
+325 timing idealTree:node_modules/bash-language-server/node_modules/web-tree-sitter Completed in 0ms
+326 timing idealTree:node_modules/bash-language-server/node_modules/wrappy Completed in 0ms
+327 timing idealTree:buildDeps Completed in 6453ms
+328 timing idealTree:fixDepFlags Completed in 1ms
+329 timing idealTree Completed in 6465ms
+330 timing reify:loadTrees Completed in 6468ms
+331 timing reify:diffTrees Completed in 1ms
+332 silly reify moves {}
+333 timing reify:retireShallow Completed in 1ms
+334 timing reify:createSparse Completed in 28ms
+335 timing reify:loadBundles Completed in 0ms
+336 silly audit bulk request {
+336 silly audit   'bash-language-server': [ '3.0.5' ],
+336 silly audit   'fuzzy-search': [ '3.2.1' ],
+336 silly audit   glob: [ '8.0.3' ],
+336 silly audit   request: [ '2.88.2' ],
+336 silly audit   'request-promise-native': [ '1.0.9' ],
+336 silly audit   turndown: [ '7.1.1' ],
+336 silly audit   urijs: [ '1.19.11' ],
+336 silly audit   'vscode-languageserver': [ '6.1.1' ],
+336 silly audit   'vscode-languageserver-textdocument': [ '1.0.5' ],
+336 silly audit   'web-tree-sitter': [ '0.20.5' ],
+336 silly audit   'fs.realpath': [ '1.0.0' ],
+336 silly audit   inflight: [ '1.0.6' ],
+336 silly audit   inherits: [ '2.0.4' ],
+336 silly audit   minimatch: [ '5.1.0' ],
+336 silly audit   once: [ '1.4.0' ],
+336 silly audit   wrappy: [ '1.0.2' ],
+336 silly audit   'brace-expansion': [ '2.0.1' ],
+336 silly audit   'balanced-match': [ '1.0.2' ],
+336 silly audit   'aws-sign2': [ '0.7.0' ],
+336 silly audit   aws4: [ '1.11.0' ],
+336 silly audit   caseless: [ '0.12.0' ],
+336 silly audit   'combined-stream': [ '1.0.8' ],
+336 silly audit   extend: [ '3.0.2' ],
+336 silly audit   'forever-agent': [ '0.6.1' ],
+336 silly audit   'form-data': [ '2.3.3' ],
+336 silly audit   'har-validator': [ '5.1.5' ],
+336 silly audit   'http-signature': [ '1.2.0' ],
+336 silly audit   'is-typedarray': [ '1.0.0' ],
+336 silly audit   isstream: [ '0.1.2' ],
+336 silly audit   'json-stringify-safe': [ '5.0.1' ],
+336 silly audit   'mime-types': [ '2.1.35' ],
+336 silly audit   'oauth-sign': [ '0.9.0' ],
+336 silly audit   'performance-now': [ '2.1.0' ],
+336 silly audit   qs: [ '6.5.3' ],
+336 silly audit   'safe-buffer': [ '5.2.1' ],
+336 silly audit   'tough-cookie': [ '2.5.0' ],
+336 silly audit   'tunnel-agent': [ '0.6.0' ],
+336 silly audit   uuid: [ '3.4.0' ],
+336 silly audit   'delayed-stream': [ '1.0.0' ],
+336 silly audit   asynckit: [ '0.4.0' ],
+336 silly audit   ajv: [ '6.12.6' ],
+336 silly audit   'har-schema': [ '2.0.0' ],
+336 silly audit   'fast-deep-equal': [ '3.1.3' ],
+336 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+336 silly audit   'json-schema-traverse': [ '0.4.1' ],
+336 silly audit   'uri-js': [ '4.4.1' ],
+336 silly audit   'assert-plus': [ '1.0.0' ],
+336 silly audit   jsprim: [ '1.4.2' ],
+336 silly audit   sshpk: [ '1.17.0' ],
+336 silly audit   extsprintf: [ '1.3.0' ],
+336 silly audit   'json-schema': [ '0.4.0' ],
+336 silly audit   verror: [ '1.10.0' ],
+336 silly audit   'mime-db': [ '1.52.0' ],
+336 silly audit   'request-promise-core': [ '1.1.4' ],
+336 silly audit   'stealthy-require': [ '1.1.1' ],
+336 silly audit   lodash: [ '4.17.21' ],
+336 silly audit   asn1: [ '0.2.6' ],
+336 silly audit   'bcrypt-pbkdf': [ '1.0.2' ],
+336 silly audit   dashdash: [ '1.14.1' ],
+336 silly audit   'ecc-jsbn': [ '0.1.2' ],
+336 silly audit   getpass: [ '0.1.7' ],
+336 silly audit   jsbn: [ '0.1.1' ],
+336 silly audit   'safer-buffer': [ '2.1.2' ],
+336 silly audit   tweetnacl: [ '0.14.5' ],
+336 silly audit   psl: [ '1.9.0' ],
+336 silly audit   punycode: [ '2.1.1' ],
+336 silly audit   domino: [ '2.1.6' ],
+336 silly audit   'core-util-is': [ '1.0.2' ],
+336 silly audit   'vscode-languageserver-protocol': [ '3.17.2' ],
+336 silly audit   'vscode-jsonrpc': [ '8.0.2' ],
+336 silly audit   'vscode-languageserver-types': [ '3.17.2' ]
+336 silly audit }
+337 silly tarball no local data for bash-language-server@https://registry.npmjs.org/bash-language-server/-/bash-language-server-3.0.5.tgz. Extracting by manifest.
+338 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 264ms
+339 timing auditReport:getReport Completed in 268ms
+340 silly audit report {}
+341 timing auditReport:init Completed in 0ms
+342 timing reify:audit Completed in 269ms
+343 timing reifyNode:node_modules/bash-language-server/node_modules/oauth-sign Completed in 289ms
+344 timing reifyNode:node_modules/bash-language-server/node_modules/wrappy Completed in 289ms
+345 timing reifyNode:node_modules/bash-language-server/node_modules/once Completed in 289ms
+346 timing reifyNode:node_modules/bash-language-server/node_modules/inflight Completed in 290ms
+347 timing reifyNode:node_modules/bash-language-server/node_modules/tunnel-agent Completed in 293ms
+348 timing reifyNode:node_modules/bash-language-server/node_modules/forever-agent Completed in 293ms
+349 timing reifyNode:node_modules/bash-language-server/node_modules/aws-sign2 Completed in 293ms
+350 timing reifyNode:node_modules/bash-language-server/node_modules/assert-plus Completed in 301ms
+351 timing reifyNode:node_modules/bash-language-server/node_modules/is-typedarray Completed in 301ms
+352 timing reifyNode:node_modules/bash-language-server/node_modules/caseless Completed in 302ms
+353 timing reifyNode:node_modules/bash-language-server/node_modules/inherits Completed in 303ms
+354 timing reifyNode:node_modules/bash-language-server/node_modules/stealthy-require Completed in 305ms
+355 timing reifyNode:node_modules/bash-language-server/node_modules/combined-stream Completed in 305ms
+356 timing reifyNode:node_modules/bash-language-server/node_modules/mime-types Completed in 306ms
+357 timing reifyNode:node_modules/bash-language-server/node_modules/balanced-match Completed in 306ms
+358 timing reifyNode:node_modules/bash-language-server/node_modules/fs.realpath Completed in 306ms
+359 warn deprecated request-promise-native@1.0.9: request-promise-native has been deprecated because it extends the now deprecated request package, see https://github.com/request/request/issues/3142
+360 timing reifyNode:node_modules/bash-language-server/node_modules/request-promise-native Completed in 308ms
+361 timing reifyNode:node_modules/bash-language-server/node_modules/brace-expansion Completed in 309ms
+362 timing reifyNode:node_modules/bash-language-server/node_modules/bcrypt-pbkdf Completed in 310ms
+363 timing reifyNode:node_modules/bash-language-server/node_modules/punycode Completed in 311ms
+364 timing reifyNode:node_modules/bash-language-server/node_modules/json-schema Completed in 311ms
+365 timing reifyNode:node_modules/bash-language-server/node_modules/safe-buffer Completed in 311ms
+366 timing reifyNode:node_modules/bash-language-server/node_modules/minimatch Completed in 311ms
+367 timing reifyNode:node_modules/bash-language-server/node_modules/getpass Completed in 317ms
+368 timing reifyNode:node_modules/bash-language-server/node_modules/delayed-stream Completed in 317ms
+369 warn deprecated har-validator@5.1.5: this library is no longer supported
+370 timing reifyNode:node_modules/bash-language-server/node_modules/har-validator Completed in 316ms
+371 timing reifyNode:node_modules/bash-language-server/node_modules/core-util-is Completed in 320ms
+372 timing reifyNode:node_modules/bash-language-server/node_modules/jsprim Completed in 321ms
+373 timing reifyNode:node_modules/bash-language-server/node_modules/glob Completed in 322ms
+374 timing reifyNode:node_modules/bash-language-server/node_modules/safer-buffer Completed in 327ms
+375 timing reifyNode:node_modules/bash-language-server/node_modules/aws4 Completed in 327ms
+376 timing reifyNode:node_modules/bash-language-server/node_modules/jsbn Completed in 329ms
+377 timing reifyNode:node_modules/bash-language-server/node_modules/verror Completed in 330ms
+378 timing reifyNode:node_modules/bash-language-server/node_modules/dashdash Completed in 331ms
+379 timing reifyNode:node_modules/bash-language-server/node_modules/isstream Completed in 333ms
+380 timing reifyNode:node_modules/bash-language-server/node_modules/ecc-jsbn Completed in 336ms
+381 timing reifyNode:node_modules/bash-language-server/node_modules/request-promise-core Completed in 337ms
+382 timing reifyNode:node_modules/bash-language-server/node_modules/mime-db Completed in 339ms
+383 timing reifyNode:node_modules/bash-language-server/node_modules/extsprintf Completed in 340ms
+384 timing reifyNode:node_modules/bash-language-server/node_modules/json-stringify-safe Completed in 340ms
+385 timing reifyNode:node_modules/bash-language-server/node_modules/json-schema-traverse Completed in 343ms
+386 timing reifyNode:node_modules/bash-language-server/node_modules/vscode-languageserver-textdocument Completed in 342ms
+387 timing reifyNode:node_modules/bash-language-server/node_modules/web-tree-sitter Completed in 343ms
+388 timing reifyNode:node_modules/bash-language-server/node_modules/extend Completed in 346ms
+389 timing reifyNode:node_modules/bash-language-server/node_modules/form-data Completed in 346ms
+390 timing reifyNode:node_modules/bash-language-server/node_modules/asn1 Completed in 351ms
+391 timing reifyNode:node_modules/bash-language-server/node_modules/tough-cookie Completed in 352ms
+392 timing reifyNode:node_modules/bash-language-server/node_modules/fast-deep-equal Completed in 353ms
+393 timing reifyNode:node_modules/bash-language-server/node_modules/http-signature Completed in 359ms
+394 timing reifyNode:node_modules/bash-language-server/node_modules/turndown Completed in 364ms
+395 timing reifyNode:node_modules/bash-language-server/node_modules/tweetnacl Completed in 372ms
+396 timing reifyNode:node_modules/bash-language-server/node_modules/vscode-languageserver-types Completed in 374ms
+397 timing reifyNode:node_modules/bash-language-server/node_modules/urijs Completed in 375ms
+398 timing reifyNode:node_modules/bash-language-server/node_modules/psl Completed in 378ms
+399 timing reifyNode:node_modules/bash-language-server/node_modules/performance-now Completed in 385ms
+400 timing reifyNode:node_modules/bash-language-server/node_modules/fast-json-stable-stringify Completed in 387ms
+401 warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+402 timing reifyNode:node_modules/bash-language-server/node_modules/uuid Completed in 390ms
+403 timing reifyNode:node_modules/bash-language-server/node_modules/asynckit Completed in 390ms
+404 warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+405 timing reifyNode:node_modules/bash-language-server/node_modules/request Completed in 392ms
+406 timing reifyNode:node_modules/bash-language-server/node_modules/har-schema Completed in 397ms
+407 timing reifyNode:node_modules/bash-language-server/node_modules/qs Completed in 398ms
+408 timing reifyNode:node_modules/bash-language-server/node_modules/fuzzy-search Completed in 402ms
+409 timing reifyNode:node_modules/bash-language-server/node_modules/vscode-languageserver Completed in 415ms
+410 timing reifyNode:node_modules/bash-language-server/node_modules/sshpk Completed in 432ms
+411 timing reifyNode:node_modules/bash-language-server/node_modules/vscode-jsonrpc Completed in 450ms
+412 timing reifyNode:node_modules/bash-language-server/node_modules/uri-js Completed in 452ms
+413 timing reifyNode:node_modules/bash-language-server/node_modules/domino Completed in 474ms
+414 timing reifyNode:node_modules/bash-language-server/node_modules/vscode-languageserver-protocol Completed in 475ms
+415 timing reifyNode:node_modules/bash-language-server/node_modules/ajv Completed in 506ms
+416 http fetch GET 200 https://registry.npmjs.org/bash-language-server/-/bash-language-server-3.0.5.tgz 1091ms (cache miss)
+417 timing reifyNode:node_modules/bash-language-server Completed in 1124ms
+418 timing reifyNode:node_modules/bash-language-server/node_modules/lodash Completed in 1290ms
+419 timing reify:unpack Completed in 1293ms
+420 timing reify:unretire Completed in 0ms
+421 timing build:queue Completed in 3ms
+422 timing build:link:node_modules/bash-language-server Completed in 27ms
+423 timing build:link:node_modules/bash-language-server/node_modules/sshpk Completed in 28ms
+424 timing build:link:node_modules/bash-language-server/node_modules/uuid Completed in 38ms
+425 timing build:link:node_modules/bash-language-server/node_modules/vscode-languageserver Completed in 49ms
+426 timing build:link Completed in 49ms
+427 timing build:deps Completed in 53ms
+428 timing build Completed in 54ms
+429 timing reify:build Completed in 54ms
+430 timing reify:trash Completed in 0ms
+431 timing reify Completed in 7863ms
+432 silly ADD node_modules/bash-language-server
+433 silly ADD node_modules/bash-language-server/node_modules/vscode-languageserver-types
+434 silly ADD node_modules/bash-language-server/node_modules/vscode-jsonrpc
+435 silly ADD node_modules/bash-language-server/node_modules/vscode-languageserver-protocol
+436 silly ADD node_modules/bash-language-server/node_modules/core-util-is
+437 silly ADD node_modules/bash-language-server/node_modules/domino
+438 silly ADD node_modules/bash-language-server/node_modules/punycode
+439 silly ADD node_modules/bash-language-server/node_modules/psl
+440 silly ADD node_modules/bash-language-server/node_modules/tweetnacl
+441 silly ADD node_modules/bash-language-server/node_modules/safer-buffer
+442 silly ADD node_modules/bash-language-server/node_modules/jsbn
+443 silly ADD node_modules/bash-language-server/node_modules/getpass
+444 silly ADD node_modules/bash-language-server/node_modules/ecc-jsbn
+445 silly ADD node_modules/bash-language-server/node_modules/dashdash
+446 silly ADD node_modules/bash-language-server/node_modules/bcrypt-pbkdf
+447 silly ADD node_modules/bash-language-server/node_modules/asn1
+448 silly ADD node_modules/bash-language-server/node_modules/lodash
+449 silly ADD node_modules/bash-language-server/node_modules/stealthy-require
+450 silly ADD node_modules/bash-language-server/node_modules/request-promise-core
+451 silly ADD node_modules/bash-language-server/node_modules/mime-db
+452 silly ADD node_modules/bash-language-server/node_modules/verror
+453 silly ADD node_modules/bash-language-server/node_modules/json-schema
+454 silly ADD node_modules/bash-language-server/node_modules/extsprintf
+455 silly ADD node_modules/bash-language-server/node_modules/sshpk
+456 silly ADD node_modules/bash-language-server/node_modules/jsprim
+457 silly ADD node_modules/bash-language-server/node_modules/assert-plus
+458 silly ADD node_modules/bash-language-server/node_modules/uri-js
+459 silly ADD node_modules/bash-language-server/node_modules/json-schema-traverse
+460 silly ADD node_modules/bash-language-server/node_modules/fast-json-stable-stringify
+461 silly ADD node_modules/bash-language-server/node_modules/fast-deep-equal
+462 silly ADD node_modules/bash-language-server/node_modules/har-schema
+463 silly ADD node_modules/bash-language-server/node_modules/ajv
+464 silly ADD node_modules/bash-language-server/node_modules/asynckit
+465 silly ADD node_modules/bash-language-server/node_modules/delayed-stream
+466 silly ADD node_modules/bash-language-server/node_modules/uuid
+467 silly ADD node_modules/bash-language-server/node_modules/tunnel-agent
+468 silly ADD node_modules/bash-language-server/node_modules/tough-cookie
+469 silly ADD node_modules/bash-language-server/node_modules/safe-buffer
+470 silly ADD node_modules/bash-language-server/node_modules/qs
+471 silly ADD node_modules/bash-language-server/node_modules/performance-now
+472 silly ADD node_modules/bash-language-server/node_modules/oauth-sign
+473 silly ADD node_modules/bash-language-server/node_modules/mime-types
+474 silly ADD node_modules/bash-language-server/node_modules/json-stringify-safe
+475 silly ADD node_modules/bash-language-server/node_modules/isstream
+476 silly ADD node_modules/bash-language-server/node_modules/is-typedarray
+477 silly ADD node_modules/bash-language-server/node_modules/http-signature
+478 silly ADD node_modules/bash-language-server/node_modules/har-validator
+479 silly ADD node_modules/bash-language-server/node_modules/form-data
+480 silly ADD node_modules/bash-language-server/node_modules/forever-agent
+481 silly ADD node_modules/bash-language-server/node_modules/extend
+482 silly ADD node_modules/bash-language-server/node_modules/combined-stream
+483 silly ADD node_modules/bash-language-server/node_modules/caseless
+484 silly ADD node_modules/bash-language-server/node_modules/aws4
+485 silly ADD node_modules/bash-language-server/node_modules/aws-sign2
+486 silly ADD node_modules/bash-language-server/node_modules/balanced-match
+487 silly ADD node_modules/bash-language-server/node_modules/brace-expansion
+488 silly ADD node_modules/bash-language-server/node_modules/wrappy
+489 silly ADD node_modules/bash-language-server/node_modules/once
+490 silly ADD node_modules/bash-language-server/node_modules/minimatch
+491 silly ADD node_modules/bash-language-server/node_modules/inherits
+492 silly ADD node_modules/bash-language-server/node_modules/inflight
+493 silly ADD node_modules/bash-language-server/node_modules/fs.realpath
+494 silly ADD node_modules/bash-language-server/node_modules/web-tree-sitter
+495 silly ADD node_modules/bash-language-server/node_modules/vscode-languageserver-textdocument
+496 silly ADD node_modules/bash-language-server/node_modules/vscode-languageserver
+497 silly ADD node_modules/bash-language-server/node_modules/urijs
+498 silly ADD node_modules/bash-language-server/node_modules/turndown
+499 silly ADD node_modules/bash-language-server/node_modules/request-promise-native
+500 silly ADD node_modules/bash-language-server/node_modules/request
+501 silly ADD node_modules/bash-language-server/node_modules/glob
+502 silly ADD node_modules/bash-language-server/node_modules/fuzzy-search
+503 timing command:i Completed in 7869ms
+504 verbose exit 0
+505 timing npm Completed in 8671ms
+506 info ok
